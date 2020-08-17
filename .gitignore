@@ -1,0 +1,6 @@
+*.tmp
+/routers/commentsRouter_controllers.go
+/swagger/
+.idea
+knowtech-api
+/*_vendor-
