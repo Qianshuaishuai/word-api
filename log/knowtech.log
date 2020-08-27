@@ -10994,3 +10994,4021 @@
     "ResponseFlag": "2ab15082fae1c975e2fe7744b51f9a60"
 }
 
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:41:15",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[q:[] userId:[3] limit:[20] page:[1] sort:[0]]",
+    "RequestFlag": "823257ce92ef5cf8af144730d696e8be"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:41:15",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[q:[] userId:[3] limit:[20] page:[1] sort:[0]]",
+    "RequestFlag": "3b693991be7da55b729250c511458560"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:41:15",
+    "Duration": " [49.41ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:41:15",
+    "Duration": " [49.85ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:41:15",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "111.075303ms",
+    "ResponseFlag": "823257ce92ef5cf8af144730d696e8be"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:41:16",
+    "Duration": " [461.02ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:41:16",
+    "Duration": " [49.45ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:41:16",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "522.178551ms",
+    "ResponseFlag": "3b693991be7da55b729250c511458560"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:42:18",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[limit:[20] page:[1] sort:[0] q:[] userId:[3]]",
+    "RequestFlag": "1f2bc3e1129dd3902b32cd8273908bdf"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:42:18",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "ac2aae48ac77255b1d05d6c7f11bf755"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:42:18",
+    "Duration": " [44.99ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:42:18",
+    "Duration": " [49.16ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:42:18",
+    "Duration": " [45.40ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:42:18",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "90.74904ms",
+    "ResponseFlag": "1f2bc3e1129dd3902b32cd8273908bdf"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:42:18",
+    "Duration": " [49.23ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:42:18",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "98.905724ms",
+    "ResponseFlag": "ac2aae48ac77255b1d05d6c7f11bf755"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:42:25",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[sort:[0] q:[] userId:[3] limit:[20] page:[1]]",
+    "RequestFlag": "d1ddbc78401566fb0dd836e333c95339"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:42:25",
+    "Duration": " [44.95ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:42:25",
+    "Duration": " [49.32ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:42:25",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.674853ms",
+    "ResponseFlag": "d1ddbc78401566fb0dd836e333c95339"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:42:25",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[q:[] userId:[3] limit:[20] page:[1] sort:[0]]",
+    "RequestFlag": "919b823b755beafe34a4350249b376f9"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:42:25",
+    "Duration": " [44.99ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:42:25",
+    "Duration": " [49.33ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:42:25",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.701614ms",
+    "ResponseFlag": "919b823b755beafe34a4350249b376f9"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:42:31",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "2494434541984af31c80707694286946"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:42:31",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[sort:[0] q:[] userId:[3] limit:[20] page:[1]]",
+    "RequestFlag": "d183572968076db03f80878feec99e19"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:42:31",
+    "Duration": " [48.28ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:42:31",
+    "Duration": " [49.09ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:42:31",
+    "Duration": " [45.14ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:42:31",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "93.749569ms",
+    "ResponseFlag": "2494434541984af31c80707694286946"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:42:31",
+    "Duration": " [49.30ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:42:31",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "98.720976ms",
+    "ResponseFlag": "d183572968076db03f80878feec99e19"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:42:39",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "0af68afb889a78ae39962ca01764d02d"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:42:39",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "97457cdd4975f912ebad405663f67a60"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:42:39",
+    "Duration": " [45.30ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:42:39",
+    "Duration": " [49.00ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:42:39",
+    "Duration": " [45.28ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:42:39",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "90.99328ms",
+    "ResponseFlag": "0af68afb889a78ae39962ca01764d02d"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:42:39",
+    "Duration": " [49.17ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:42:39",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "98.540251ms",
+    "ResponseFlag": "97457cdd4975f912ebad405663f67a60"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:43:04",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "9598591937ab28d2b9c8859bdcc0a52b"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:43:04",
+    "Duration": " [45.00ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:43:04",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "a51b1d8f2cf71a9328b3dbf1ae184ff1"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:43:04",
+    "Duration": " [49.42ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:43:04",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.871963ms",
+    "ResponseFlag": "9598591937ab28d2b9c8859bdcc0a52b"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:43:04",
+    "Duration": " [45.01ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:43:04",
+    "Duration": " [49.12ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:43:04",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.491217ms",
+    "ResponseFlag": "a51b1d8f2cf71a9328b3dbf1ae184ff1"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:44:25",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[page:[1] sort:[0] q:[] userId:[3] limit:[20]]",
+    "RequestFlag": "a214fa863325c330b8e171679c431b2e"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:44:25",
+    "Duration": " [44.98ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:44:25",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[page:[1] sort:[0] q:[] userId:[3] limit:[20]]",
+    "RequestFlag": "de3e6f283dbea431b46c2ce1995f3cc2"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:44:25",
+    "Duration": " [49.19ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:44:25",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.537565ms",
+    "ResponseFlag": "a214fa863325c330b8e171679c431b2e"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:44:25",
+    "Duration": " [45.08ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:44:25",
+    "Duration": " [49.36ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:44:25",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.897161ms",
+    "ResponseFlag": "de3e6f283dbea431b46c2ce1995f3cc2"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:44:34",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[page:[1] sort:[0] q:[] userId:[3] limit:[20]]",
+    "RequestFlag": "48925f0e4f6b9e55a2e64d3d42c5fb3e"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:44:34",
+    "Duration": " [44.95ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:44:34",
+    "Duration": " [49.45ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:44:34",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.833559ms",
+    "ResponseFlag": "48925f0e4f6b9e55a2e64d3d42c5fb3e"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:44:34",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "828bbf25a60b6098bd6c9a9fbd38f3b2"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:44:35",
+    "Duration": " [44.91ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:44:35",
+    "Duration": " [49.21ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:44:35",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.518503ms",
+    "ResponseFlag": "828bbf25a60b6098bd6c9a9fbd38f3b2"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:45:25",
+    "IP": "::1",
+    "URI": "/v1/book/add?userId=3&bookData=%7B%22id%22:0,%22userId%22:0,%22name%22:%22%E6%B5%8B%E8%AF%95%22,%22press%22:%22%E5%A4%A7%E5%B8%85%22,%22grade%22:4,%22pubDate%22:%222020-08-27%22,%22cover%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598499899296xi89megd%22,%22imageAi%22:1,%22pages%22:%5B%7B%22id%22:0,%22userId%22:0,%22bookId%22:0,%22cover%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/15984999024157g9lc7s1%22,%22frames%22:%5B%7B%22id%22:0,%22userId%22:0,%22bookId%22:0,%22pageId%22:0,%22resourceUrl%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/15984999093938lhkn74o%22,%22position%22:%22%22%7D%5D%7D%5D%7D",
+    "Method": "POST",
+    "Args": "map[userId:[3] bookData:[{\"id\":0,\"userId\":0,\"name\":\"测试\",\"press\":\"大帅\",\"grade\":4,\"pubDate\":\"2020-08-27\",\"cover\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598499899296xi89megd\",\"imageAi\":1,\"pages\":[{\"id\":0,\"userId\":0,\"bookId\":0,\"cover\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/15984999024157g9lc7s1\",\"frames\":[{\"id\":0,\"userId\":0,\"bookId\":0,\"pageId\":0,\"resourceUrl\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/15984999093938lhkn74o\",\"position\":\"\"}]}]}]]",
+    "RequestFlag": "829e7257d17c9e94d5244a5e25cb1900"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:18",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:45:25",
+    "Duration": " [90.43ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  WHERE (name = '测试')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "SnowFlakRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:103",
+    "Tag": "SNOWFLAK",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:45:25",
+    "RequestFlag": "f7b2fd5c88db58d4e2d90315071a7be4",
+    "Uri": "/v1/snowflak/intId",
+    "Auth": ":d41d8cd98f00b204e9800998ecf8427e"
+}
+
+{
+    "Tip": "LogErr",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:122",
+    "Tag": "API",
+    "Level": 2,
+    "BaseTime": "2020-08-27 11:45:25",
+    "Info": "Error : Get /v1/snowflak/intId: unsupported protocol scheme \"\"",
+    "Descript": "[snowflak module]"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:31",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:45:25",
+    "Duration": " [90.43ms] ",
+    "SQLMsg": "INSERT INTO `t_books` (`user_id`,`name`,`press`,`grade`,`pub_date`,`cover`,`image_ai`,`create_time`) VALUES ('3','测试','大帅','4','2020-08-27','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598499899296xi89megd','1','2020-08-27 11:45:25')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "SnowFlakRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:103",
+    "Tag": "SNOWFLAK",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:45:25",
+    "RequestFlag": "d1643a656ce3ce4df0d635a2a1b9724d",
+    "Uri": "/v1/snowflak/intId",
+    "Auth": ":d41d8cd98f00b204e9800998ecf8427e"
+}
+
+{
+    "Tip": "LogErr",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:122",
+    "Tag": "API",
+    "Level": 2,
+    "BaseTime": "2020-08-27 11:45:25",
+    "Info": "Error : Get /v1/snowflak/intId: unsupported protocol scheme \"\"",
+    "Descript": "[snowflak module]"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:46",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:45:25",
+    "Duration": " [90.16ms] ",
+    "SQLMsg": "INSERT INTO `t_book_pages` (`user_id`,`book_id`,`cover`,`create_time`) VALUES ('3','4','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/15984999024157g9lc7s1','2020-08-27 11:45:25')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:60",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:45:25",
+    "Duration": " [90.07ms] ",
+    "SQLMsg": "INSERT INTO `t_page_frames` (`user_id`,`book_id`,`page_id`,`resource_url`,`position`,`create_time`) VALUES ('3','4','4','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/15984999093938lhkn74o','','2020-08-27 11:45:25')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:45:25",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "456.972964ms",
+    "ResponseFlag": "829e7257d17c9e94d5244a5e25cb1900"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:45:25",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[q:[] userId:[3] limit:[20] page:[1] sort:[0]]",
+    "RequestFlag": "5953c6c288aba4c1c7b686267683f913"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:45:25",
+    "Duration": " [49.02ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:45:25",
+    "Duration": " [45.39ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:45:25",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.733203ms",
+    "ResponseFlag": "5953c6c288aba4c1c7b686267683f913"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:45:31",
+    "IP": "::1",
+    "URI": "/v1/book/detail?bookId=4",
+    "Method": "GET",
+    "Args": "map[bookId:[4]]",
+    "RequestFlag": "25d1e5b99ff57f9570f99bc7cc56db27"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:114",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:45:31",
+    "Duration": " [99.00ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`  WHERE (id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:115",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:45:31",
+    "Duration": " [90.74ms] ",
+    "SQLMsg": "SELECT * FROM `t_book_pages`  WHERE (book_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:118",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:45:31",
+    "Duration": " [98.76ms] ",
+    "SQLMsg": "SELECT * FROM `t_page_frames`  WHERE (page_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:45:31",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "289.264863ms",
+    "ResponseFlag": "25d1e5b99ff57f9570f99bc7cc56db27"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:45:50",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "1ec0f1dbcb803eeec629eb0d977b67d5"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:45:51",
+    "Duration": " [45.06ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:45:51",
+    "Duration": " [49.33ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:45:51",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.787186ms",
+    "ResponseFlag": "1ec0f1dbcb803eeec629eb0d977b67d5"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:45:51",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "16c8ece804b0e7fedc93aafb9e580cf5"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:45:51",
+    "Duration": " [44.99ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:45:51",
+    "Duration": " [49.32ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:45:51",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.705372ms",
+    "ResponseFlag": "16c8ece804b0e7fedc93aafb9e580cf5"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:46:06",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[q:[] userId:[3] limit:[20] page:[1] sort:[0]]",
+    "RequestFlag": "3ba1d02cd5cec34dc769c1a8dda78f6d"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:46:06",
+    "Duration": " [61.69ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:46:06",
+    "Duration": " [49.38ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:46:06",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "111.48796ms",
+    "ResponseFlag": "3ba1d02cd5cec34dc769c1a8dda78f6d"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:46:06",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "862c67f6e7219d142e646d708e27607d"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:46:06",
+    "Duration": " [45.17ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:46:06",
+    "Duration": " [49.24ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:46:06",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.76611ms",
+    "ResponseFlag": "862c67f6e7219d142e646d708e27607d"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:46:10",
+    "IP": "::1",
+    "URI": "/v1/book/detail?bookId=4",
+    "Method": "GET",
+    "Args": "map[bookId:[4]]",
+    "RequestFlag": "82290b765606e33b86b20df40a4d011d"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:114",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:46:10",
+    "Duration": " [90.78ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`  WHERE (id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:115",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:46:10",
+    "Duration": " [98.87ms] ",
+    "SQLMsg": "SELECT * FROM `t_book_pages`  WHERE (book_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:118",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:46:10",
+    "Duration": " [90.41ms] ",
+    "SQLMsg": "SELECT * FROM `t_page_frames`  WHERE (page_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:46:10",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "281.100925ms",
+    "ResponseFlag": "82290b765606e33b86b20df40a4d011d"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:47:14",
+    "IP": "::1",
+    "URI": "/v1/book/detail?bookId=4",
+    "Method": "GET",
+    "Args": "map[bookId:[4]]",
+    "RequestFlag": "5bd29fcf1f7db414850a69951bbf5ddf"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:114",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:47:14",
+    "Duration": " [100.90ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`  WHERE (id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:115",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:47:14",
+    "Duration": " [90.73ms] ",
+    "SQLMsg": "SELECT * FROM `t_book_pages`  WHERE (book_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:118",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:47:14",
+    "Duration": " [98.69ms] ",
+    "SQLMsg": "SELECT * FROM `t_page_frames`  WHERE (page_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:47:14",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "291.037878ms",
+    "ResponseFlag": "5bd29fcf1f7db414850a69951bbf5ddf"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:48:27",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "4e3a52291240634470119a119d56b640"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:48:27",
+    "Duration": " [44.91ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:48:28",
+    "Duration": " [49.35ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:48:28",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.68122ms",
+    "ResponseFlag": "4e3a52291240634470119a119d56b640"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:48:28",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "99d54c355555cbe5bb0016aeecf0037b"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:48:28",
+    "Duration": " [45.01ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:48:28",
+    "Duration": " [49.39ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:48:28",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.744435ms",
+    "ResponseFlag": "99d54c355555cbe5bb0016aeecf0037b"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:48:31",
+    "IP": "::1",
+    "URI": "/v1/book/detail?bookId=4",
+    "Method": "GET",
+    "Args": "map[bookId:[4]]",
+    "RequestFlag": "110495b11617ee06dfcbd28370c3cd4b"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:114",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:48:31",
+    "Duration": " [90.27ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`  WHERE (id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:115",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:48:31",
+    "Duration": " [98.21ms] ",
+    "SQLMsg": "SELECT * FROM `t_book_pages`  WHERE (book_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:118",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:48:31",
+    "Duration": " [90.46ms] ",
+    "SQLMsg": "SELECT * FROM `t_page_frames`  WHERE (page_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:48:31",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "279.546388ms",
+    "ResponseFlag": "110495b11617ee06dfcbd28370c3cd4b"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:50:18",
+    "IP": "::1",
+    "URI": "/v1/book/detail?bookId=4",
+    "Method": "GET",
+    "Args": "map[bookId:[4]]",
+    "RequestFlag": "27a21229ecbc8f19daa34f8cd546301e"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:114",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:50:18",
+    "Duration": " [98.56ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`  WHERE (id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:115",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:50:18",
+    "Duration": " [90.62ms] ",
+    "SQLMsg": "SELECT * FROM `t_book_pages`  WHERE (book_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:118",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:50:18",
+    "Duration": " [98.65ms] ",
+    "SQLMsg": "SELECT * FROM `t_page_frames`  WHERE (page_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:50:18",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "288.452776ms",
+    "ResponseFlag": "27a21229ecbc8f19daa34f8cd546301e"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:52:59",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "5ef3752c8af92d7ca7bcc5dd2a1190fc"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:52:59",
+    "Duration": " [44.96ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:52:59",
+    "Duration": " [49.36ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:52:59",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.784679ms",
+    "ResponseFlag": "5ef3752c8af92d7ca7bcc5dd2a1190fc"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:52:59",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "7f719e9644d86e9c010bc09efcc1ba75"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:52:59",
+    "Duration": " [45.01ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:52:59",
+    "Duration": " [49.62ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:52:59",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "95.078054ms",
+    "ResponseFlag": "7f719e9644d86e9c010bc09efcc1ba75"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:53:19",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[q:[] userId:[3] limit:[20] page:[1] sort:[0]]",
+    "RequestFlag": "2249426eb8749268fdc5e87807ef2f9e"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:53:19",
+    "Duration": " [45.12ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:53:19",
+    "Duration": " [49.44ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:53:19",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.971921ms",
+    "ResponseFlag": "2249426eb8749268fdc5e87807ef2f9e"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:53:19",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[limit:[20] page:[1] sort:[0] q:[] userId:[3]]",
+    "RequestFlag": "d4bc6450e12300b5439e10d709871817"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:53:19",
+    "Duration": " [57.90ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:53:20",
+    "Duration": " [62.18ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:53:20",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "120.466987ms",
+    "ResponseFlag": "d4bc6450e12300b5439e10d709871817"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:53:20",
+    "IP": "::1",
+    "URI": "/v1/book/detail?bookId=4",
+    "Method": "GET",
+    "Args": "map[bookId:[4]]",
+    "RequestFlag": "a4de19edac894562e4ddbee64795b554"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:114",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:53:21",
+    "Duration": " [117.84ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`  WHERE (id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:115",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:53:21",
+    "Duration": " [98.58ms] ",
+    "SQLMsg": "SELECT * FROM `t_book_pages`  WHERE (book_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:118",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:53:21",
+    "Duration": " [96.45ms] ",
+    "SQLMsg": "SELECT * FROM `t_page_frames`  WHERE (page_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:53:21",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "313.514084ms",
+    "ResponseFlag": "a4de19edac894562e4ddbee64795b554"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:53:44",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "4dfc84c8299b50d6746cead1cdc4f2d6"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:53:44",
+    "Duration": " [48.95ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:53:44",
+    "Duration": " [45.31ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:53:44",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.658068ms",
+    "ResponseFlag": "4dfc84c8299b50d6746cead1cdc4f2d6"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:53:44",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[limit:[20] page:[1] sort:[0] q:[] userId:[3]]",
+    "RequestFlag": "d9ad87ce9bf231ce5e944bad03e4ed59"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:53:44",
+    "Duration": " [48.93ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:53:44",
+    "Duration": " [45.34ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:53:44",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.622066ms",
+    "ResponseFlag": "d9ad87ce9bf231ce5e944bad03e4ed59"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:53:47",
+    "IP": "::1",
+    "URI": "/v1/book/detail?bookId=4",
+    "Method": "GET",
+    "Args": "map[bookId:[4]]",
+    "RequestFlag": "9167b542e2e9c1e1aa233e68965d5726"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:114",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:53:47",
+    "Duration": " [98.50ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`  WHERE (id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:115",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:53:47",
+    "Duration": " [90.45ms] ",
+    "SQLMsg": "SELECT * FROM `t_book_pages`  WHERE (book_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:118",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:53:47",
+    "Duration": " [98.42ms] ",
+    "SQLMsg": "SELECT * FROM `t_page_frames`  WHERE (page_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:53:47",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "288.01545ms",
+    "ResponseFlag": "9167b542e2e9c1e1aa233e68965d5726"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:54:40",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[q:[] userId:[3] limit:[20] page:[1] sort:[0]]",
+    "RequestFlag": "30a8cb7bee3527e73e404b488d34c1c1"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:54:40",
+    "Duration": " [44.92ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:54:40",
+    "Duration": " [49.19ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:54:40",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.54148ms",
+    "ResponseFlag": "30a8cb7bee3527e73e404b488d34c1c1"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:54:41",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "4d0edf0f05b249a731e6df43c631befa"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:54:41",
+    "Duration": " [45.10ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:54:41",
+    "Duration": " [49.39ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:54:41",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.856716ms",
+    "ResponseFlag": "4d0edf0f05b249a731e6df43c631befa"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:54:43",
+    "IP": "::1",
+    "URI": "/v1/book/detail?bookId=4",
+    "Method": "GET",
+    "Args": "map[bookId:[4]]",
+    "RequestFlag": "541fa3def35342325ed20393b13ba181"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:114",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:54:43",
+    "Duration": " [90.61ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`  WHERE (id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:115",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:54:43",
+    "Duration": " [98.91ms] ",
+    "SQLMsg": "SELECT * FROM `t_book_pages`  WHERE (book_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:118",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:54:43",
+    "Duration": " [90.59ms] ",
+    "SQLMsg": "SELECT * FROM `t_page_frames`  WHERE (page_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:54:43",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "280.873626ms",
+    "ResponseFlag": "541fa3def35342325ed20393b13ba181"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:54:52",
+    "IP": "::1",
+    "URI": "/v1/book/edit?userId=3&bookId=4",
+    "Method": "POST",
+    "Args": "map[userId:[3] bookId:[4]]",
+    "RequestFlag": "6012f84d8709b24bbf57f1ba3349c565"
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:54:52",
+    "StatusCode": 200,
+    "ResponseNo": 10002,
+    "ResponseMsg": "map[BookData:[Can not be empty]]",
+    "Duration": "322.378µs",
+    "ResponseFlag": "6012f84d8709b24bbf57f1ba3349c565"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:55:45",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[limit:[20] page:[1] sort:[0] q:[] userId:[3]]",
+    "RequestFlag": "49cbaa28bb29c06438e05ef1d57b437d"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:55:45",
+    "Duration": " [48.87ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:55:45",
+    "Duration": " [45.33ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:55:45",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.552189ms",
+    "ResponseFlag": "49cbaa28bb29c06438e05ef1d57b437d"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:55:45",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[page:[1] sort:[0] q:[] userId:[3] limit:[20]]",
+    "RequestFlag": "a7b879ba21818b927a019b4b9a494977"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:55:45",
+    "Duration": " [48.97ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:55:45",
+    "Duration": " [45.41ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:55:45",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.740191ms",
+    "ResponseFlag": "a7b879ba21818b927a019b4b9a494977"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:55:53",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "62f8b74c24e2edd2c0fb4ad7c37e8317"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:55:53",
+    "Duration": " [49.18ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:55:53",
+    "Duration": " [45.33ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:55:53",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.943318ms",
+    "ResponseFlag": "62f8b74c24e2edd2c0fb4ad7c37e8317"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:55:53",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "cfb44971114a91cb11a79c95c37a3cb0"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:55:53",
+    "Duration": " [49.03ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:55:53",
+    "Duration": " [45.24ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:55:53",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.671467ms",
+    "ResponseFlag": "cfb44971114a91cb11a79c95c37a3cb0"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:55:56",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[limit:[20] page:[1] sort:[0] q:[] userId:[3]]",
+    "RequestFlag": "b277f5a38c70ff885049b107c41b70cd"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:55:56",
+    "Duration": " [48.94ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:55:56",
+    "Duration": " [45.29ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:55:56",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.591552ms",
+    "ResponseFlag": "b277f5a38c70ff885049b107c41b70cd"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:55:57",
+    "IP": "::1",
+    "URI": "/v1/book/detail?bookId=4",
+    "Method": "GET",
+    "Args": "map[bookId:[4]]",
+    "RequestFlag": "391887dff1ab5cb83268f490721920c9"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:114",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:55:57",
+    "Duration": " [98.99ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`  WHERE (id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:115",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:55:57",
+    "Duration": " [90.15ms] ",
+    "SQLMsg": "SELECT * FROM `t_book_pages`  WHERE (book_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:118",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:55:57",
+    "Duration": " [98.21ms] ",
+    "SQLMsg": "SELECT * FROM `t_page_frames`  WHERE (page_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:55:57",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "288.064616ms",
+    "ResponseFlag": "391887dff1ab5cb83268f490721920c9"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:56:05",
+    "IP": "::1",
+    "URI": "/v1/book/edit?userId=3&bookId=4&bookData=%7B%22id%22:4,%22userId%22:3,%22name%22:%22%E6%B5%8B%E8%AF%95123%22,%22press%22:%22%E5%A4%A7%E5%B8%85454%22,%22grade%22:5,%22pubDate%22:%222020-08-27%22,%22cover%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598499899296xi89megd%22,%22imageAi%22:1,%22pages%22:%5B%7B%22id%22:4,%22userId%22:3,%22bookId%22:4,%22cover%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/15984999024157g9lc7s1%22,%22frames%22:%5B%7B%22id%22:3,%22userId%22:3,%22bookId%22:4,%22pageId%22:4,%22resourceUrl%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/15984999093938lhkn74o%22,%22position%22:%22%22%7D%5D%7D%5D%7D",
+    "Method": "POST",
+    "Args": "map[userId:[3] bookId:[4] bookData:[{\"id\":4,\"userId\":3,\"name\":\"测试123\",\"press\":\"大帅454\",\"grade\":5,\"pubDate\":\"2020-08-27\",\"cover\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598499899296xi89megd\",\"imageAi\":1,\"pages\":[{\"id\":4,\"userId\":3,\"bookId\":4,\"cover\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/15984999024157g9lc7s1\",\"frames\":[{\"id\":3,\"userId\":3,\"bookId\":4,\"pageId\":4,\"resourceUrl\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/15984999093938lhkn74o\",\"position\":\"\"}]}]}]]",
+    "RequestFlag": "9e6ee75c34e5c15c8f6778869ab98d11"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:126",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:56:05",
+    "Duration": " [90.27ms] ",
+    "SQLMsg": "DELETE FROM `t_books`  WHERE (id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:127",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:56:05",
+    "Duration": " [97.87ms] ",
+    "SQLMsg": "DELETE FROM `t_book_pages`  WHERE (book_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:128",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:56:06",
+    "Duration": " [90.16ms] ",
+    "SQLMsg": "DELETE FROM `t_page_frames`  WHERE (book_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:18",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:56:06",
+    "Duration": " [97.81ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  WHERE (name = '测试123')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:31",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:56:06",
+    "Duration": " [98.36ms] ",
+    "SQLMsg": "INSERT INTO `t_books` (`id`,`user_id`,`name`,`press`,`grade`,`pub_date`,`cover`,`image_ai`,`create_time`) VALUES ('4','3','测试123','大帅454','5','2020-08-27','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598499899296xi89megd','1','2020-08-27 11:56:06')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:46",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:56:06",
+    "Duration": " [98.34ms] ",
+    "SQLMsg": "INSERT INTO `t_book_pages` (`id`,`user_id`,`book_id`,`cover`,`create_time`) VALUES ('4','3','4','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/15984999024157g9lc7s1','2020-08-27 11:56:06')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:60",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:56:06",
+    "Duration": " [98.11ms] ",
+    "SQLMsg": "INSERT INTO `t_page_frames` (`id`,`user_id`,`book_id`,`page_id`,`resource_url`,`position`,`create_time`) VALUES ('3','3','4','4','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/15984999093938lhkn74o','','2020-08-27 11:56:06')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:56:06",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "1.048178012s",
+    "ResponseFlag": "9e6ee75c34e5c15c8f6778869ab98d11"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:56:06",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "5187904f41cd465f372f452a351f5b3f"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:56:06",
+    "Duration": " [45.00ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:56:06",
+    "Duration": " [49.29ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:56:06",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.650541ms",
+    "ResponseFlag": "5187904f41cd465f372f452a351f5b3f"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:56:27",
+    "IP": "::1",
+    "URI": "/v1/book/detail?bookId=4",
+    "Method": "GET",
+    "Args": "map[bookId:[4]]",
+    "RequestFlag": "1165e74bbb785c3603a322de8faf287e"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:114",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:56:27",
+    "Duration": " [90.81ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`  WHERE (id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:115",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:56:27",
+    "Duration": " [98.54ms] ",
+    "SQLMsg": "SELECT * FROM `t_book_pages`  WHERE (book_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:118",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:56:27",
+    "Duration": " [90.44ms] ",
+    "SQLMsg": "SELECT * FROM `t_page_frames`  WHERE (page_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:56:27",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "280.639861ms",
+    "ResponseFlag": "1165e74bbb785c3603a322de8faf287e"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:56:46",
+    "IP": "::1",
+    "URI": "/v1/book/edit?userId=3&bookId=4&bookData=%7B%22id%22:4,%22userId%22:3,%22name%22:%22%E6%B5%8B%E8%AF%95123%22,%22press%22:%22%E5%A4%A7%E5%B8%85454%22,%22grade%22:5,%22pubDate%22:%222020-08-27%22,%22cover%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598499899296xi89megd%22,%22imageAi%22:1,%22pages%22:%5B%5D%7D",
+    "Method": "POST",
+    "Args": "map[bookData:[{\"id\":4,\"userId\":3,\"name\":\"测试123\",\"press\":\"大帅454\",\"grade\":5,\"pubDate\":\"2020-08-27\",\"cover\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598499899296xi89megd\",\"imageAi\":1,\"pages\":[]}] userId:[3] bookId:[4]]",
+    "RequestFlag": "974bbc6ae7cfaa9715b9597a14a517c2"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:126",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:56:46",
+    "Duration": " [97.92ms] ",
+    "SQLMsg": "DELETE FROM `t_books`  WHERE (id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:127",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:56:46",
+    "Duration": " [90.40ms] ",
+    "SQLMsg": "DELETE FROM `t_book_pages`  WHERE (book_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:128",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:56:47",
+    "Duration": " [97.84ms] ",
+    "SQLMsg": "DELETE FROM `t_page_frames`  WHERE (book_id = '4')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:18",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:56:47",
+    "Duration": " [90.42ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  WHERE (name = '测试123')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:31",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:56:47",
+    "Duration": " [90.27ms] ",
+    "SQLMsg": "INSERT INTO `t_books` (`id`,`user_id`,`name`,`press`,`grade`,`pub_date`,`cover`,`image_ai`,`create_time`) VALUES ('4','3','测试123','大帅454','5','2020-08-27','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598499899296xi89megd','1','2020-08-27 11:56:47')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:56:47",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "843.905198ms",
+    "ResponseFlag": "974bbc6ae7cfaa9715b9597a14a517c2"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:56:47",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "d71b9b1514d47f53868c231727014988"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:56:47",
+    "Duration": " [48.92ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:56:47",
+    "Duration": " [45.22ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:56:47",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.489252ms",
+    "ResponseFlag": "d71b9b1514d47f53868c231727014988"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:58:23",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[page:[1] sort:[0] q:[] userId:[3] limit:[20]]",
+    "RequestFlag": "4262a95ef062532355412139746ff880"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:58:23",
+    "Duration": " [49.01ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:58:23",
+    "Duration": " [45.24ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:58:23",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "f7b81a6d75c0f6a2b38bf3bcdef438bf"
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:58:23",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.643377ms",
+    "ResponseFlag": "4262a95ef062532355412139746ff880"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:58:23",
+    "Duration": " [48.92ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:58:23",
+    "Duration": " [45.36ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:58:23",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.686545ms",
+    "ResponseFlag": "f7b81a6d75c0f6a2b38bf3bcdef438bf"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:59:11",
+    "IP": "::1",
+    "URI": "/v1/book/add?userId=3&bookData=%7B%22id%22:0,%22userId%22:0,%22name%22:%22%E6%B5%8B%E8%AF%952%22,%22press%22:%22%E5%A4%A7%E7%8E%873%22,%22grade%22:4,%22pubDate%22:%222020-08-19%22,%22cover%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598500718730luaopaj7%22,%22imageAi%22:1,%22pages%22:%5B%7B%22id%22:0,%22userId%22:0,%22bookId%22:0,%22cover%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598500724796mo05ecv9%22,%22frames%22:%5B%7B%22id%22:0,%22userId%22:0,%22bookId%22:0,%22pageId%22:0,%22resourceUrl%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598500728562jyr8mw8n%22,%22position%22:%22%22%7D%5D%7D%5D%7D",
+    "Method": "POST",
+    "Args": "map[userId:[3] bookData:[{\"id\":0,\"userId\":0,\"name\":\"测试2\",\"press\":\"大率3\",\"grade\":4,\"pubDate\":\"2020-08-19\",\"cover\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598500718730luaopaj7\",\"imageAi\":1,\"pages\":[{\"id\":0,\"userId\":0,\"bookId\":0,\"cover\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598500724796mo05ecv9\",\"frames\":[{\"id\":0,\"userId\":0,\"bookId\":0,\"pageId\":0,\"resourceUrl\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598500728562jyr8mw8n\",\"position\":\"\"}]}]}]]",
+    "RequestFlag": "e66864a339be98d3efa01abdef2e1c87"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:18",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:59:11",
+    "Duration": " [111.04ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  WHERE (name = '测试2')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "SnowFlakRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:103",
+    "Tag": "SNOWFLAK",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:59:11",
+    "RequestFlag": "74d53f670159df40d2c6261586478f7f",
+    "Uri": "/v1/snowflak/intId",
+    "Auth": ":d41d8cd98f00b204e9800998ecf8427e"
+}
+
+{
+    "Tip": "LogErr",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:122",
+    "Tag": "API",
+    "Level": 2,
+    "BaseTime": "2020-08-27 11:59:11",
+    "Info": "Error : Get /v1/snowflak/intId: unsupported protocol scheme \"\"",
+    "Descript": "[snowflak module]"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:31",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:59:11",
+    "Duration": " [98.48ms] ",
+    "SQLMsg": "INSERT INTO `t_books` (`user_id`,`name`,`press`,`grade`,`pub_date`,`cover`,`image_ai`,`create_time`) VALUES ('3','测试2','大率3','4','2020-08-19','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598500718730luaopaj7','1','2020-08-27 11:59:11')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "SnowFlakRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:103",
+    "Tag": "SNOWFLAK",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:59:11",
+    "RequestFlag": "dd6a246e7188baf6131c3e4b4923062b",
+    "Uri": "/v1/snowflak/intId",
+    "Auth": ":d41d8cd98f00b204e9800998ecf8427e"
+}
+
+{
+    "Tip": "LogErr",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:122",
+    "Tag": "API",
+    "Level": 2,
+    "BaseTime": "2020-08-27 11:59:11",
+    "Info": "Error : Get /v1/snowflak/intId: unsupported protocol scheme \"\"",
+    "Descript": "[snowflak module]"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:46",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:59:11",
+    "Duration": " [98.70ms] ",
+    "SQLMsg": "INSERT INTO `t_book_pages` (`user_id`,`book_id`,`cover`,`create_time`) VALUES ('3','5','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598500724796mo05ecv9','2020-08-27 11:59:11')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:60",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:59:11",
+    "Duration": " [98.25ms] ",
+    "SQLMsg": "INSERT INTO `t_page_frames` (`user_id`,`book_id`,`page_id`,`resource_url`,`position`,`create_time`) VALUES ('3','5','5','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598500728562jyr8mw8n','','2020-08-27 11:59:11')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:59:11",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "507.952034ms",
+    "ResponseFlag": "e66864a339be98d3efa01abdef2e1c87"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:59:11",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "9fa7073a69422b3280802b2a63a2b163"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:59:11",
+    "Duration": " [45.09ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:59:11",
+    "Duration": " [50.61ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:59:11",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "96.248281ms",
+    "ResponseFlag": "9fa7073a69422b3280802b2a63a2b163"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:59:48",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[page:[1] sort:[0] q:[] userId:[3] limit:[20]]",
+    "RequestFlag": "23defeda7ea6df275d391ed1f7796dc0"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:59:48",
+    "Duration": " [44.98ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:59:48",
+    "Duration": " [49.48ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:59:48",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.898106ms",
+    "ResponseFlag": "23defeda7ea6df275d391ed1f7796dc0"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:59:48",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "1f9d2967ae646d75c3663ad941c9fa1d"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:59:48",
+    "Duration": " [45.12ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:59:48",
+    "Duration": " [49.18ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:59:48",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.687774ms",
+    "ResponseFlag": "1f9d2967ae646d75c3663ad941c9fa1d"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:59:53",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[sort:[0] q:[] userId:[3] limit:[20] page:[1]]",
+    "RequestFlag": "a7c83a9d45a8a45cbf29f8602f34b636"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:59:53",
+    "Duration": " [44.96ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:59:53",
+    "Duration": " [49.34ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:59:53",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.6428ms",
+    "ResponseFlag": "a7c83a9d45a8a45cbf29f8602f34b636"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:59:53",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[page:[1] sort:[0] q:[] userId:[3] limit:[20]]",
+    "RequestFlag": "2a16d182125298b164d3121bed508937"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:59:53",
+    "Duration": " [44.93ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:59:53",
+    "Duration": " [49.37ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:59:53",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.652674ms",
+    "ResponseFlag": "2a16d182125298b164d3121bed508937"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:59:54",
+    "IP": "::1",
+    "URI": "/v1/book/detail?bookId=5",
+    "Method": "GET",
+    "Args": "map[bookId:[5]]",
+    "RequestFlag": "bfc399f81327ca377cde4d095c47e54c"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:114",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:59:54",
+    "Duration": " [90.80ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`  WHERE (id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:115",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:59:54",
+    "Duration": " [98.28ms] ",
+    "SQLMsg": "SELECT * FROM `t_book_pages`  WHERE (book_id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:118",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 11:59:55",
+    "Duration": " [90.42ms] ",
+    "SQLMsg": "SELECT * FROM `t_page_frames`  WHERE (page_id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 11:59:55",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "280.36121ms",
+    "ResponseFlag": "bfc399f81327ca377cde4d095c47e54c"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 12:00:14",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "dd8330349b9d0c780142d3f083eae4af"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 12:00:14",
+    "Duration": " [48.83ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 12:00:14",
+    "Duration": " [45.51ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 12:00:14",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.69468ms",
+    "ResponseFlag": "dd8330349b9d0c780142d3f083eae4af"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 12:00:14",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "6062658bd0416c4c7ac40535cb3c88b3"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 12:00:14",
+    "Duration": " [49.15ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 12:00:14",
+    "Duration": " [45.37ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 12:00:14",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.846243ms",
+    "ResponseFlag": "6062658bd0416c4c7ac40535cb3c88b3"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:47:58",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[page:[1] sort:[0] q:[] userId:[3] limit:[20]]",
+    "RequestFlag": "ee08ab0b46419b896bceb922f3c8a5a0"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:47:58",
+    "Duration": " [0.17ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "log",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 2,
+    "BaseTime": "2020-08-27 13:47:58",
+    "Duration": "",
+    "SQLMsg": "invalid connection",
+    "RowAffected": ""
+}
+
+{
+    "Tip": "log",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 2,
+    "BaseTime": "2020-08-27 13:47:58",
+    "Duration": "",
+    "SQLMsg": "invalid connection",
+    "RowAffected": ""
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:47:58",
+    "Duration": " [0.15ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:47:58",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "682.388µs",
+    "ResponseFlag": "ee08ab0b46419b896bceb922f3c8a5a0"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:47:58",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "e9a1fb3d1f906119352506695c174ed3"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:47:59",
+    "Duration": " [854.06ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:47:59",
+    "Duration": " [43.00ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:47:59",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "897.722898ms",
+    "ResponseFlag": "e9a1fb3d1f906119352506695c174ed3"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:48:01",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[limit:[20] page:[1] sort:[0] q:[] userId:[3]]",
+    "RequestFlag": "7689cfc92ac82331ed1e097d3736b211"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:48:01",
+    "Duration": " [42.61ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:48:01",
+    "Duration": " [42.96ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:48:01",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "85.974907ms",
+    "ResponseFlag": "7689cfc92ac82331ed1e097d3736b211"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:48:02",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[page:[1] sort:[0] q:[] userId:[3] limit:[20]]",
+    "RequestFlag": "46c5c19325f0a9a1f12355f599395f5a"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:48:02",
+    "Duration": " [42.51ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:48:02",
+    "Duration": " [42.70ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:48:02",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "85.570956ms",
+    "ResponseFlag": "46c5c19325f0a9a1f12355f599395f5a"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:48:42",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "59d5a07d24a8f20905f707aeec55be36"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:48:42",
+    "Duration": " [42.39ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:48:42",
+    "Duration": " [42.83ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:48:42",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "85.599949ms",
+    "ResponseFlag": "59d5a07d24a8f20905f707aeec55be36"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:48:42",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "3cfe96e11ee4fff5b91cea6886eb97e3"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:48:42",
+    "Duration": " [42.49ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:48:42",
+    "Duration": " [42.87ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:48:42",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "85.678835ms",
+    "ResponseFlag": "3cfe96e11ee4fff5b91cea6886eb97e3"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:48:49",
+    "IP": "::1",
+    "URI": "/v1/book/detail?bookId=5",
+    "Method": "GET",
+    "Args": "map[bookId:[5]]",
+    "RequestFlag": "f729f325fb906ccef26721d4b76bdc1f"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:114",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:48:49",
+    "Duration": " [85.66ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`  WHERE (id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:115",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:48:49",
+    "Duration": " [85.07ms] ",
+    "SQLMsg": "SELECT * FROM `t_book_pages`  WHERE (book_id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:118",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:48:49",
+    "Duration": " [85.18ms] ",
+    "SQLMsg": "SELECT * FROM `t_page_frames`  WHERE (page_id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:48:49",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "256.442013ms",
+    "ResponseFlag": "f729f325fb906ccef26721d4b76bdc1f"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:49:06",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[page:[1] sort:[0] q:[] userId:[3] limit:[20]]",
+    "RequestFlag": "668daeab7e74f5ebf060047311d750d3"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:49:06",
+    "Duration": " [42.24ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:49:06",
+    "Duration": " [42.90ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:49:06",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "85.511846ms",
+    "ResponseFlag": "668daeab7e74f5ebf060047311d750d3"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:49:06",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "b61f1cf1e3eee9c6c26f3de5742a95f1"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:49:06",
+    "Duration": " [42.50ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:49:06",
+    "Duration": " [42.70ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:49:06",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "85.597826ms",
+    "ResponseFlag": "b61f1cf1e3eee9c6c26f3de5742a95f1"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:49:09",
+    "IP": "::1",
+    "URI": "/v1/book/detail?bookId=5",
+    "Method": "GET",
+    "Args": "map[bookId:[5]]",
+    "RequestFlag": "dfafac16efe00d09244e59e4550ab8c6"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:114",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:49:09",
+    "Duration": " [85.98ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`  WHERE (id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:115",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:49:09",
+    "Duration": " [85.00ms] ",
+    "SQLMsg": "SELECT * FROM `t_book_pages`  WHERE (book_id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:118",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:49:09",
+    "Duration": " [85.51ms] ",
+    "SQLMsg": "SELECT * FROM `t_page_frames`  WHERE (page_id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:49:09",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "257.343558ms",
+    "ResponseFlag": "dfafac16efe00d09244e59e4550ab8c6"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:49:18",
+    "IP": "::1",
+    "URI": "/v1/book/detail?bookId=5",
+    "Method": "GET",
+    "Args": "map[bookId:[5]]",
+    "RequestFlag": "70bbc9ac5c37a7724046d46783a0207b"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:114",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:49:18",
+    "Duration": " [85.29ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`  WHERE (id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:115",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:49:18",
+    "Duration": " [85.62ms] ",
+    "SQLMsg": "SELECT * FROM `t_book_pages`  WHERE (book_id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:118",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:49:19",
+    "Duration": " [85.21ms] ",
+    "SQLMsg": "SELECT * FROM `t_page_frames`  WHERE (page_id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:49:19",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "256.736834ms",
+    "ResponseFlag": "70bbc9ac5c37a7724046d46783a0207b"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:49:35",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=%E6%B5%8B%E8%AF%952",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[测试2]]",
+    "RequestFlag": "20c1415949e86675a2656a610a49f161"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:49:35",
+    "Duration": " [85.20ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  WHERE (name LIKE '%测试2%')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:49:35",
+    "Duration": " [85.85ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`  WHERE (name LIKE '%测试2%') ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:49:35",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "171.771137ms",
+    "ResponseFlag": "20c1415949e86675a2656a610a49f161"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:49:38",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "cd66b22bd9e4e7f11f28178d4693af79"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:49:38",
+    "Duration": " [42.65ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 13:49:38",
+    "Duration": " [43.00ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 13:49:38",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "86.419708ms",
+    "ResponseFlag": "cd66b22bd9e4e7f11f28178d4693af79"
+}
+

@@ -22,7 +22,9 @@ func AddBook(userId int, bookData string) (err error) {
 	}
 
 	//Step1:先上传书本
-	receiverBook.ID = snow.GetIntId()
+	if receiverBook.ID == 0 {
+		receiverBook.ID = snow.GetIntId()
+	}
 	receiverBook.UserID = userId
 	receiverBook.CreateTime = time.Now()
 
@@ -34,7 +36,9 @@ func AddBook(userId int, bookData string) (err error) {
 
 	//Step2:后上传书页以及截图框
 	for p := range receiverBook.Pages {
-		receiverBook.Pages[p].ID = snow.GetIntId()
+		if receiverBook.Pages[p].ID == 0 {
+			receiverBook.Pages[p].ID = snow.GetIntId()
+		}
 		receiverBook.Pages[p].BookID = receiverBook.ID
 		receiverBook.Pages[p].CreateTime = time.Now()
 		receiverBook.Pages[p].UserID = userId
@@ -46,7 +50,9 @@ func AddBook(userId int, bookData string) (err error) {
 		}
 
 		for f := range receiverBook.Pages[p].Frames {
-			receiverBook.Pages[p].Frames[f].BookID = receiverBook.ID
+			if receiverBook.Pages[p].Frames[f].BookID == 0 {
+				receiverBook.Pages[p].Frames[f].BookID = receiverBook.ID
+			}
 			receiverBook.Pages[p].Frames[f].UserID = userId
 			receiverBook.Pages[p].Frames[f].PageID = receiverBook.Pages[p].ID
 			receiverBook.Pages[p].Frames[f].CreateTime = time.Now()

@@ -15,7 +15,7 @@ type PageFrame struct {
 type QuestionFrame struct {
 	ID          int       `gorm:"column:id" json:"id"`
 	UserID      int       `gorm:"column:user_id" json:"userId"`
-	PageID      int       `gorm:"column:question_id" json:"questionId"`
+	QuestionID  int       `gorm:"column:question_id" json:"questionId"`
 	ResourceURL string    `gorm:"column:resource_url" json:"resourceUrl"`
 	Position    string    `gorm:"column:position" json:"position"`
 	CreateTime  time.Time `gorm:"column:create_time" json:"-"`

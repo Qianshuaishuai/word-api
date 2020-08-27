@@ -1,91 +1,133 @@
 package models
 
-// func AddQuestion(userId int, imageAI int, frameData string) (err error) {
-// 	var snow *MSnowflakCurl
-// 	tx := GetDb().Begin()
+import (
+	"encoding/json"
+	"errors"
+	"strings"
+	"time"
+)
 
-// 	//Step1:先上传单题
-// 	var newQuestion Question
-// 	newQuestion.ID = snow.GetIntId()
-// 	newQuestion.ImageAi = imageAI
-// 	newQuestion.UserID = userId
-// 	newQuestion.CreateTime = time.Now()
+//添加题目
+func AddQuestion(userId int, questionData string) (err error) {
+	var snow *MSnowflakCurl
+	tx := GetDb().Begin()
 
-// 	err = tx.Table("t_questions").Create(&newQuestion).Error
-// 	if err != nil {
-// 		tx.Rollback()
-// 		return errors.New("创建单题失败")
-// 	}
+	var receiverQuestion Question
+	json.Unmarshal([]byte(questionData), &receiverQuestion)
 
-// 	//Step2:后上传截框
-// 	var uploadFrames []UploadFrame
-// 	json.Unmarshal([]byte(frameData), &uploadFrames)
+	var checkCount int
+	tx.Table("t_questions").Where("name = ?", receiverQuestion.Name).Count(&checkCount)
+	if checkCount > 0 {
+		tx.Rollback()
+		return errors.New("已有该单道试题")
+	}
 
-// 	//ToDO:一条post多条上传操作，理应前端给适当交互
-// 	for u := range uploadFrames {
-// 		uploadFrame := uploadFrames[u]
-// 		var newFrame Frame
+	//Step1:先上传题目
+	if receiverQuestion.ID == 0 {
+		receiverQuestion.ID = snow.GetIntId()
+	}
+	receiverQuestion.UserID = userId
+	receiverQuestion.CreateTime = time.Now()
 
-// 		newFrame.UserID = userId
-// 		newFrame.ResourceID = newQuestion.ID
-// 		newFrame.Type = TYPE_RESOURCE_FRAME_QUESTION
-// 		newFrame.CreateTime = time.Now()
-// 		newFrame.Position = uploadFrame.Position
-// 		newFrame.ResourceURL = uploadFrame.URL
-// 		newFrame.Content = "暂定" //ToDo
+	err = tx.Table("t_questions").Create(&receiverQuestion).Error
+	if err != nil {
+		tx.Rollback()
+		return errors.New("创建单题失败")
+	}
 
-// 		err = tx.Table("t_frames").Create(&newFrame).Error
-// 		if err != nil {
-// 			tx.Rollback()
-// 			return errors.New("创建截图框失败")
-// 		}
+	//Step2:后上传题目截图框
+	for f := range receiverQuestion.Frames {
+		if receiverQuestion.Frames[f].ID == 0 {
+			receiverQuestion.Frames[f].ID = snow.GetIntId()
+		}
+		receiverQuestion.Frames[f].QuestionID = receiverQuestion.ID
+		receiverQuestion.Frames[f].CreateTime = time.Now()
+		receiverQuestion.Frames[f].UserID = userId
 
-// 	}
+		err = tx.Table("t_question_frames").Create(&receiverQuestion.Frames[f]).Error
+		if err != nil {
+			tx.Rollback()
+			return errors.New("创建题目截图框失败")
+		}
+	}
 
-// 	return nil
-// }
+	tx.Commit()
+	return nil
+}
 
-// //获取题目列表（带分页）
-// func GetQuestionList(userId int, limit int, page int, sort int) (datas []Question, count int, err error) {
-// 	db := GetDb().Table("t_questions")
+//获取题目列表（带分页）
+func GetQuestionList(userId int, limit int, page int, sort int, q string) (datas []Question, count int, err error) {
+	db := GetDb().Table("t_questions")
 
-// 	//处理分页参数
-// 	var offset int
-// 	if limit > 0 && page > 0 {
-// 		offset = (page - 1) * limit
-// 	}
+	//处理分页参数
+	var offset int
+	if limit > 0 && page > 0 {
+		offset = (page - 1) * limit
+	}
 
-// 	var sortStr = "DESC" // 默认时间 降序
-// 	if sort == 1 {
-// 		sortStr = "ASC"
-// 	}
+	// 将搜索字符串按空格拆分
+	q = strings.TrimSpace(q)
+	var qstring string
+	if len(q) > 0 {
+		qs := strings.Fields(q)
+		for _, v := range qs {
+			qstring += "%" + v
+		}
+		qstring += "%"
+	}
 
-// 	db.Count(&count)
+	if len(qstring) > 0 {
+		db = db.Where("name LIKE ?", qstring)
+	}
 
-// 	db.Limit(limit).
-// 		Offset(offset).
-// 		Order("create_time " + sortStr).
-// 		Scan(&datas)
+	var sortStr = "DESC" // 默认时间 降序
+	if sort == 1 {
+		sortStr = "ASC"
+	}
 
-// 	return datas, count, nil
-// }
+	db.Count(&count)
 
-// //获取题目对应详情信息（包含截框信息）
-// func GetQuestionDetail(questionId int) (detail QuestionDetail, err error) {
-// 	GetDb().Table("t_questions").Where("id = ?", questionId).Find(&detail.Question)
-// 	GetDb().Table("t_frames").Where("resource_id = ?", questionId).Find(&detail.Frames)
+	db.Limit(limit).
+		Offset(offset).
+		Order("create_time " + sortStr).
+		Scan(&datas)
 
-// 	return detail, nil
-// }
+	return datas, count, nil
+}
 
-// //删除题目
-// func DeleteQuestion(questionId int) (err error) {
-// 	err = GetDb().Table("t_questions").Where("id = ?", questionId).Delete(Question{}).Error
-// 	err = GetDb().Table("t_frames").Where("resource_id = ?", questionId).Delete(Frame{}).Error
+//获取题目对应详情信息（包含截框信息）
+func GetQuestionDetail(questionId int) (question Question, err error) {
+	GetDb().Table("t_questions").Where("id = ?", questionId).Find(&question)
+	GetDb().Table("t_question_frames").Where("question_id = ?", questionId).Find(&question.Frames)
 
-// 	if err != nil {
-// 		return errors.New("删除失败")
-// 	}
+	return question, nil
+}
 
-// 	return nil
-// }
+//删除题目
+func DeleteQuestion(questionId int) (err error) {
+	err = GetDb().Table("t_questions").Where("id = ?", questionId).Delete(Question{}).Error
+	err = GetDb().Table("t_question_frames").Where("question_id = ?", questionId).Delete(QuestionFrame{}).Error
+
+	if err != nil {
+		return errors.New("删除失败")
+	}
+
+	return nil
+}
+
+//编辑题目
+func EditQuestion(userId, questionId int, questionData string) (err error) {
+	//step1:删除原有题目数据
+	err = DeleteBook(questionId)
+	if err != nil {
+		return errors.New("删除失败")
+	}
+
+	//step2:重建题目数据
+	err = AddQuestion(userId, questionData)
+	if err != nil {
+		return errors.New("重建失败")
+	}
+
+	return nil
+}

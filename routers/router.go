@@ -30,4 +30,11 @@ func init() {
 	beego.Router("/v1/book/delete", &controllers.BookController{}, "post:DeleteBook")
 	beego.Router("/v1/book/list", &controllers.BookController{}, "get:GetBookList")
 	beego.Router("/v1/book/detail", &controllers.BookController{}, "get:GetBookDetail")
+
+	//单道试题相关
+	beego.Router("/v1/question/add", &controllers.QuestionController{}, "post:AddQuestion")
+	beego.Router("/v1/question/edit", &controllers.QuestionController{}, "post:EditQuestion")
+	beego.Router("/v1/question/delete", &controllers.QuestionController{}, "post:DeleteQuestion")
+	beego.Router("/v1/question/list", &controllers.QuestionController{}, "get:GetQuestionList")
+	beego.Router("/v1/question/detail", &controllers.QuestionController{}, "get:GetQuestionDetail")
 }
