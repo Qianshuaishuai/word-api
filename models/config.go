@@ -77,6 +77,7 @@ const (
 	RESP_PARAM_ERR = 10002 // 200
 	RESP_TOKEN_ERR = 10003 // 403
 	RESP_NO_ACCESS = 10004 // 400
+	RESP_NO_RESULT = 10005 //
 
 	//自定义响应码 --200
 	RESP_RESOURCE_NOT_FOUND       = 13300
@@ -99,11 +100,11 @@ const (
 )
 
 func init() {
-	// DREAMENV := os.Getenv("DREAMENV")
-	// if len(DREAMENV) <= 0 {
-	// 	DREAMENV = "TEST"
-	// }
-	appName := "poetry-api"
+	DREAMENV := os.Getenv("DREAMENV")
+	if len(DREAMENV) <= 0 {
+		DREAMENV = "PROD"
+	}
+	appName := "knowtech-api"
 
 	appConf, err := config.NewConfig("ini", "conf/app.conf")
 	if err != nil {
@@ -124,38 +125,22 @@ func init() {
 			MyConfig.LogLevel = loglib.LevelError
 		}
 
-		MyConfig.LogFile = appConf.String(appName + "::LogFile")
-		MyConfig.dBHost = appConf.String(appName + "::dbHost")
-		MyConfig.dBName = appConf.String(appName + "::dbName")
-		MyConfig.dBUsername = appConf.String(appName + "::dBUsername")
-		MyConfig.dBPassword = appConf.String(appName + "::dbPassword")
-		MyConfig.dBMaxIdle, _ = appConf.Int(appName + "::dbMaxIdle")
-		MyConfig.dBMaxConn, _ = appConf.Int(appName + "::dbMaxConn")
-		MyConfig.ApiToken = appConf.String(appName + "::apiToken")
-		MyConfig.TraceOpen, _ = appConf.Int(appName + "::traceOpen")
-		MyConfig.TraceServerName = appConf.String(appName + "::traceServerName")
-		MyConfig.RecoverPanic = appConf.DefaultBool(appName+"::recoverPanic", true)
+		MyConfig.LogFile = appConf.String(DREAMENV + "::LogFile")
+		MyConfig.dBHost = appConf.String(DREAMENV + "::dbHost")
+		MyConfig.dBName = appConf.String(DREAMENV + "::dbName")
+		MyConfig.dBUsername = appConf.String(DREAMENV + "::dBUsername")
+		MyConfig.dBPassword = appConf.String(DREAMENV + "::dbPassword")
+		MyConfig.dBMaxIdle, _ = appConf.Int(DREAMENV + "::dbMaxIdle")
+		MyConfig.dBMaxConn, _ = appConf.Int(DREAMENV + "::dbMaxConn")
+		MyConfig.ApiToken = appConf.String(DREAMENV + "::apiToken")
+		MyConfig.TraceOpen, _ = appConf.Int(DREAMENV + "::traceOpen")
+		MyConfig.TraceServerName = appConf.String(DREAMENV + "::traceServerName")
+		MyConfig.RecoverPanic = appConf.DefaultBool(DREAMENV+"::recoverPanic", true)
 
-		MyConfig.SnowFlakDomain = appConf.String("dreamSnowflake" + "::domain")
-		MyConfig.SnowFlakAuthUser = appConf.String("dreamSnowflake" + "::authUser")
-		MyConfig.SnowFlakAuthUserSecurity = appConf.String("dreamSnowflake" + "::authUserSecurity")
+		MyConfig.SnowFlakDomain = appConf.String(DREAMENV + "::domain")
+		MyConfig.SnowFlakAuthUser = appConf.String(DREAMENV + "::authUser")
+		MyConfig.SnowFlakAuthUserSecurity = appConf.String(DREAMENV + "::authUserSecurity")
 
-		MyConfig.LoginServerDomain = appConf.String("dreamEbagLogin" + "::domain-local")
-
-		MyConfig.PrepareDomain = appConf.String("dreamEbagPrepareLesson" + "::domain-local")
-		MyConfig.PrepareApiAccesstoken = appConf.String("dreamEbagPrepareLesson" + "::apiToken")
-
-		MyConfig.TraceRemoteAddr = appConf.String("trace" + "::domain")
-
-		// MyConfig.CircuitDynamicCoverDomain = appConf.String(appName + "::circuitDynamicCoverDomain")
-		// MyConfig.UseElasticSearch, _ = appConf.Bool(appName + "::useElasticSearch")
-		// MyConfig.ElasticUrl = appConf.String(appName + "::elasticUrl")
-		// MyConfig.ElasticUsername = appConf.String(appName + "::elasticUsername")
-		// MyConfig.ElasticPassword = appConf.String(appName + "::elasticPassword")
-		// MyConfig.ElasticIndexName = appConf.String(appName + "::elasticIndexName")
-
-		// MyConfig.ImgAudioResourceDomain = appConf.String(appName + "::ImgAudioResourceDomain")
-		// MyConfig.BeikeDomain = appConf.String(appName + "::BeikeDomain")
 	}
 	getResponseConfig()
 

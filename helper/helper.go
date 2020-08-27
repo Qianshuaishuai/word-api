@@ -2,11 +2,14 @@ package helper
 
 import (
 	"bytes"
+	"crypto/md5"
 	"encoding/gob"
 	"fmt"
+	"math/rand"
 	"reflect"
 	"strconv"
 	"strings"
+	"time"
 )
 
 //类型转化 string  to int
@@ -165,4 +168,28 @@ func Insert(slice []byte, insertion byte, index int) []byte {
 		rear[i+1] = slice[i]
 	}
 	return rear
+}
+
+//给字符串生成md5
+//@params str 需要加密的字符串
+//@params salt interface{} 加密的盐
+//@return str 返回md5码
+func Md5Crypt(str string, salt ...interface{}) (CryptStr string) {
+	if l := len(salt); l > 0 {
+		slice := make([]string, l+1)
+		str = fmt.Sprintf(str+strings.Join(slice, "%v"), salt...)
+	}
+	return fmt.Sprintf("%x", md5.Sum([]byte(str)))
+}
+
+// RandString 生成随机字符串
+func GetRandomString(l int) string {
+	str := "0123456789abcdefghijklmnopqrstuvwxyz"
+	bytes := []byte(str)
+	result := []byte{}
+	r := rand.New(rand.NewSource(time.Now().UnixNano()))
+	for i := 0; i < l; i++ {
+		result = append(result, bytes[r.Intn(len(bytes))])
+	}
+	return string(result)
 }
