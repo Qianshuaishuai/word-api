@@ -92,6 +92,10 @@ func GetQuestionList(userId int, limit int, page int, sort int, q string) (datas
 		Order("create_time " + sortStr).
 		Scan(&datas)
 
+	for d := range datas {
+		datas[d].CreateTimeStr = datas[d].CreateTime.Format(timeLayoutStr)
+	}
+
 	return datas, count, nil
 }
 
@@ -118,7 +122,7 @@ func DeleteQuestion(questionId int) (err error) {
 //编辑题目
 func EditQuestion(userId, questionId int, questionData string) (err error) {
 	//step1:删除原有题目数据
-	err = DeleteBook(questionId)
+	err = DeleteQuestion(questionId)
 	if err != nil {
 		return errors.New("删除失败")
 	}

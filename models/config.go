@@ -71,6 +71,10 @@ var (
 )
 
 const (
+	timeLayoutStr = "2006-01-02 15:04:05"
+)
+
+const (
 	//公共响应码
 	RESP_OK        = 10000 // 200
 	RESP_ERR       = 10001 // 400

@@ -106,6 +106,10 @@ func GetBookList(userId int, limit int, page int, sort int, q string) (datas []B
 		Order("create_time " + sortStr).
 		Scan(&datas)
 
+	for d := range datas {
+		datas[d].CreateTimeStr = datas[d].CreateTime.Format(timeLayoutStr)
+	}
+
 	return datas, count, nil
 }
 

@@ -15012,3 +15012,5102 @@
     "ResponseFlag": "cd66b22bd9e4e7f11f28178d4693af79"
 }
 
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 14:45:41",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "7a7e4bc6d95e2386545f7b7cf1be8e7c"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 14:45:41",
+    "Duration": " [47.59ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 14:45:41",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "923bb553e5bcbdc92a2b81fff9679ac0"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 14:45:41",
+    "Duration": " [47.57ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 14:45:41",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "95.62831ms",
+    "ResponseFlag": "7a7e4bc6d95e2386545f7b7cf1be8e7c"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 14:45:42",
+    "Duration": " [691.45ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 14:45:42",
+    "Duration": " [47.80ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 14:45:42",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "739.890198ms",
+    "ResponseFlag": "923bb553e5bcbdc92a2b81fff9679ac0"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 14:46:46",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "68f7e56b2de2c2c4505de6ca0d86efb8"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 14:46:46",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[sort:[0] q:[] userId:[3] limit:[20] page:[1]]",
+    "RequestFlag": "930312372f1c1ad418564221fb611e6b"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 14:46:46",
+    "Duration": " [47.82ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 14:46:46",
+    "Duration": " [47.15ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 14:46:46",
+    "Duration": " [47.85ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 14:46:46",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "96.067292ms",
+    "ResponseFlag": "68f7e56b2de2c2c4505de6ca0d86efb8"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 14:46:46",
+    "Duration": " [47.49ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 14:46:46",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "95.076904ms",
+    "ResponseFlag": "930312372f1c1ad418564221fb611e6b"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 14:47:08",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "1a4d966c67980695b81454c20f309763"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 14:47:08",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[q:[] userId:[3] limit:[20] page:[1] sort:[0]]",
+    "RequestFlag": "7f4d0ea66158846fbe7491809d47e464"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 14:47:08",
+    "Duration": " [47.56ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 14:47:08",
+    "Duration": " [47.26ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 14:47:08",
+    "Duration": " [59.63ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 14:47:08",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "107.608982ms",
+    "ResponseFlag": "1a4d966c67980695b81454c20f309763"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 14:47:08",
+    "Duration": " [47.63ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 14:47:08",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "95.333846ms",
+    "ResponseFlag": "7f4d0ea66158846fbe7491809d47e464"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 14:49:02",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[sort:[0] q:[] userId:[3] limit:[20] page:[1]]",
+    "RequestFlag": "66613fdd64c16f234601712779a9621e"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 14:49:02",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[limit:[20] page:[1] sort:[0] q:[] userId:[3]]",
+    "RequestFlag": "d267c0c474ab0285422a74f55e60302d"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 14:49:02",
+    "Duration": " [47.27ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 14:49:02",
+    "Duration": " [47.10ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 14:49:02",
+    "Duration": " [47.86ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 14:49:02",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "95.5012ms",
+    "ResponseFlag": "66613fdd64c16f234601712779a9621e"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 14:49:02",
+    "Duration": " [47.60ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 14:49:02",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "95.162125ms",
+    "ResponseFlag": "d267c0c474ab0285422a74f55e60302d"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:17:50",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[q:[] userId:[3] limit:[20] page:[1] sort:[0]]",
+    "RequestFlag": "8d7f8a7b63627e579e8086b826fd5a1d"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:17:50",
+    "Duration": " [3.79ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "log",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:17:50",
+    "Duration": "",
+    "SQLMsg": "invalid connection",
+    "RowAffected": ""
+}
+
+{
+    "Tip": "log",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:17:50",
+    "Duration": "",
+    "SQLMsg": "invalid connection",
+    "RowAffected": ""
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:17:50",
+    "Duration": " [1.10ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:17:50",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "15.48403ms",
+    "ResponseFlag": "8d7f8a7b63627e579e8086b826fd5a1d"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:17:50",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[sort:[0] q:[] userId:[3] limit:[20] page:[1]]",
+    "RequestFlag": "37fd0c92140d4b4ac19196e17cb6dc13"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:17:50",
+    "Duration": " [818.22ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:17:51",
+    "Duration": " [49.57ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:17:51",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "868.105461ms",
+    "ResponseFlag": "37fd0c92140d4b4ac19196e17cb6dc13"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:19:25",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[q:[] userId:[3] limit:[20] page:[1] sort:[0]]",
+    "RequestFlag": "d95263d876bc4640b46a543459fc4f71"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:19:25",
+    "Duration": " [52.67ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:19:25",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[sort:[0] q:[] userId:[3] limit:[20] page:[1]]",
+    "RequestFlag": "8304be83ff9aa2c8e0c97c32af56681f"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:19:25",
+    "Duration": " [50.29ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:19:25",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "113.008205ms",
+    "ResponseFlag": "d95263d876bc4640b46a543459fc4f71"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:19:25",
+    "Duration": " [233.09ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:19:25",
+    "Duration": " [49.60ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:19:25",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "283.731103ms",
+    "ResponseFlag": "8304be83ff9aa2c8e0c97c32af56681f"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:26:29",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[q:[] userId:[3] limit:[20] page:[1] sort:[0]]",
+    "RequestFlag": "3d8e2c361b3d40adc62aa430047a08ad"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:26:29",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "11b829137c1fa2476f5a59bdefd0c40e"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:26:29",
+    "Duration": " [46.85ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:26:29",
+    "Duration": " [49.75ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:26:29",
+    "Duration": " [46.65ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:26:29",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "93.93919ms",
+    "ResponseFlag": "3d8e2c361b3d40adc62aa430047a08ad"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:26:29",
+    "Duration": " [49.49ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:26:29",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "99.650743ms",
+    "ResponseFlag": "11b829137c1fa2476f5a59bdefd0c40e"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:28:10",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[q:[] userId:[3] limit:[20] page:[1] sort:[0]]",
+    "RequestFlag": "5c474b2ec4d2b70b1dc10b989f770174"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:28:10",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[limit:[20] page:[1] sort:[0] q:[] userId:[3]]",
+    "RequestFlag": "33e64326c2f3fc11df70fe81df181c0b"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:28:10",
+    "Duration": " [46.54ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:28:10",
+    "Duration": " [61.60ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:28:10",
+    "Duration": " [46.85ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:28:10",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "104.662984ms",
+    "ResponseFlag": "5c474b2ec4d2b70b1dc10b989f770174"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:28:10",
+    "Duration": " [49.69ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:28:10",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "111.716866ms",
+    "ResponseFlag": "33e64326c2f3fc11df70fe81df181c0b"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:31:10",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[limit:[20] page:[1] sort:[0] q:[] userId:[3]]",
+    "RequestFlag": "7c8eedbe7e3430d4658a0a9b20eeea65"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:31:10",
+    "Duration": " [46.50ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:31:10",
+    "Duration": " [49.66ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:31:10",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "96.546401ms",
+    "ResponseFlag": "7c8eedbe7e3430d4658a0a9b20eeea65"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:31:10",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[sort:[0] q:[] userId:[3] limit:[20] page:[1]]",
+    "RequestFlag": "d88e742701cf0aa0fb50da2a61debf33"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:31:10",
+    "Duration": " [46.43ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:31:10",
+    "Duration": " [49.52ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:31:10",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "96.351243ms",
+    "ResponseFlag": "d88e742701cf0aa0fb50da2a61debf33"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:31:29",
+    "IP": "::1",
+    "URI": "/v1/question/add?userId=3&questionData=%7B%22id%22:0,%22userId%22:0,%22name%22:%22%E6%B5%8B%E8%AF%95123%22,%22image%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/159851708586359jnhcdf%22,%22imageAi%22:1,%22frames%22:%5B%5D%7D",
+    "Method": "POST",
+    "Args": "map[questionData:[{\"id\":0,\"userId\":0,\"name\":\"测试123\",\"image\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/159851708586359jnhcdf\",\"imageAi\":1,\"frames\":[]}] userId:[3]]",
+    "RequestFlag": "0d0813674b02a99368c764927b63c5ce"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:19",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:31:29",
+    "Duration": " [93.23ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  WHERE (name = '测试123')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "SnowFlakRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:103",
+    "Tag": "SNOWFLAK",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:31:29",
+    "RequestFlag": "1b12c166359786403eaf89519e2cac13",
+    "Uri": "/v1/snowflak/intId",
+    "Auth": ":d41d8cd98f00b204e9800998ecf8427e"
+}
+
+{
+    "Tip": "LogErr",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:122",
+    "Tag": "API",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:31:29",
+    "Info": "Error : Get /v1/snowflak/intId: unsupported protocol scheme \"\"",
+    "Descript": "[snowflak module]"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:32",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:31:29",
+    "Duration": " [92.98ms] ",
+    "SQLMsg": "INSERT INTO `t_questions` (`user_id`,`name`,`image_ai`,`image`,`create_time`) VALUES ('3','测试123','1','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/159851708586359jnhcdf','2020-08-27 16:31:29')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:31:29",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "281.122881ms",
+    "ResponseFlag": "0d0813674b02a99368c764927b63c5ce"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:31:29",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "3569a36598832c3f3c0809c3e80f05b2"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:31:29",
+    "Duration": " [49.32ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:31:29",
+    "Duration": " [46.93ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:31:29",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "96.631125ms",
+    "ResponseFlag": "3569a36598832c3f3c0809c3e80f05b2"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:31:59",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "ef9b5082e29efd3ec5fd3f582fc5b2bb"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:31:59",
+    "Duration": " [49.72ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:31:59",
+    "Duration": " [46.75ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:31:59",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "96.80307ms",
+    "ResponseFlag": "ef9b5082e29efd3ec5fd3f582fc5b2bb"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:31:59",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "4f4ada24da625ec31e8e8286fd9b4269"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:31:59",
+    "Duration": " [49.47ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:31:59",
+    "Duration": " [47.42ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:31:59",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "97.277761ms",
+    "ResponseFlag": "4f4ada24da625ec31e8e8286fd9b4269"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:32:53",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "2ee1ea8f4a0b3ae32fa844f704cb6e92"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:32:53",
+    "Duration": " [49.41ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:32:53",
+    "Duration": " [46.92ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:32:53",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "96.796104ms",
+    "ResponseFlag": "2ee1ea8f4a0b3ae32fa844f704cb6e92"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:32:53",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "2bfe03f5a2af93b094ad548ab8f5c510"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:32:53",
+    "Duration": " [49.51ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:32:53",
+    "Duration": " [46.87ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:32:53",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "96.757257ms",
+    "ResponseFlag": "2bfe03f5a2af93b094ad548ab8f5c510"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:33:01",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[q:[] userId:[3] limit:[20] page:[1] sort:[0]]",
+    "RequestFlag": "8bacd555934066d3ceeca66bedcd8079"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:33:01",
+    "Duration": " [49.42ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:33:01",
+    "Duration": " [46.83ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:33:01",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "96.673555ms",
+    "ResponseFlag": "8bacd555934066d3ceeca66bedcd8079"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:33:01",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "0ed00917b4a4c62f4ca1819e4c5a7271"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:33:01",
+    "Duration": " [49.38ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:33:02",
+    "Duration": " [46.78ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:33:02",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "96.529548ms",
+    "ResponseFlag": "0ed00917b4a4c62f4ca1819e4c5a7271"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:33:05",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "bf6a11fcb94428072b4f1444efd474bf"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:33:05",
+    "Duration": " [49.43ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:33:05",
+    "Duration": " [46.71ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:33:05",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "96.536368ms",
+    "ResponseFlag": "bf6a11fcb94428072b4f1444efd474bf"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:33:06",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[q:[] userId:[3] limit:[20] page:[1] sort:[0]]",
+    "RequestFlag": "8c2f8d3de2921326281eebbcd9f2d295"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:33:06",
+    "Duration": " [49.47ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:33:06",
+    "Duration": " [46.64ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:33:06",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "96.466541ms",
+    "ResponseFlag": "8c2f8d3de2921326281eebbcd9f2d295"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:34:19",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "1a39c211b9e467a86b9c2f2147d4e2fd"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:34:19",
+    "Duration": " [49.44ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:34:19",
+    "Duration": " [46.89ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:34:19",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "96.761391ms",
+    "ResponseFlag": "1a39c211b9e467a86b9c2f2147d4e2fd"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:34:19",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "9b24e1a4ccdd0168ae7bc02e8af487e2"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:34:19",
+    "Duration": " [49.49ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:34:20",
+    "Duration": " [46.83ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:34:20",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "96.697541ms",
+    "ResponseFlag": "9b24e1a4ccdd0168ae7bc02e8af487e2"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:35:00",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "960d671d9a96c67050e6968eb52efc12"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:35:00",
+    "Duration": " [49.39ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:35:00",
+    "Duration": " [46.83ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:35:00",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "96.673953ms",
+    "ResponseFlag": "960d671d9a96c67050e6968eb52efc12"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:35:01",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "e5b5c63591b79f18385d02867ac39e89"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:35:01",
+    "Duration": " [49.58ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:35:01",
+    "Duration": " [46.72ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:35:01",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "96.653088ms",
+    "ResponseFlag": "e5b5c63591b79f18385d02867ac39e89"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:35:21",
+    "IP": "::1",
+    "URI": "/v1/question/add?userId=3&questionData=%7B%22id%22:0,%22userId%22:0,%22name%22:%22%E6%B5%8B%E8%AF%95321%22,%22image%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0%22,%22imageAi%22:1,%22frames%22:%5B%7B%22id%22:0,%22userId%22:0,%22questionId%22:0,%22resourceUrl%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z%22,%22position%22:%22%22%7D%5D%7D",
+    "Method": "POST",
+    "Args": "map[userId:[3] questionData:[{\"id\":0,\"userId\":0,\"name\":\"测试321\",\"image\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0\",\"imageAi\":1,\"frames\":[{\"id\":0,\"userId\":0,\"questionId\":0,\"resourceUrl\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z\",\"position\":\"\"}]}]]",
+    "RequestFlag": "15fb024323b8fcf20b12ef4982c0530d"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:19",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:35:21",
+    "Duration": " [98.77ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  WHERE (name = '测试321')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "SnowFlakRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:103",
+    "Tag": "SNOWFLAK",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:35:21",
+    "RequestFlag": "8523eedfb698ac5127ac16ff6668ac35",
+    "Uri": "/v1/snowflak/intId",
+    "Auth": ":d41d8cd98f00b204e9800998ecf8427e"
+}
+
+{
+    "Tip": "LogErr",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:122",
+    "Tag": "API",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:35:21",
+    "Info": "Error : Get /v1/snowflak/intId: unsupported protocol scheme \"\"",
+    "Descript": "[snowflak module]"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:32",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:35:21",
+    "Duration": " [98.87ms] ",
+    "SQLMsg": "INSERT INTO `t_questions` (`user_id`,`name`,`image_ai`,`image`,`create_time`) VALUES ('3','测试321','1','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0','2020-08-27 16:35:21')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "log",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:32",
+    "Tag": "DB",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:35:21",
+    "Duration": "",
+    "SQLMsg": "Error 1292: Incorrect datetime value: '0000-00-00' for column 'create_time' at row 1",
+    "RowAffected": ""
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:32",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:35:21",
+    "Duration": " [101.36ms] ",
+    "SQLMsg": "INSERT INTO `t_question_frames` (`user_id`,`question_id`,`resource_url`,`position`,`create_time`) VALUES ('0','2','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z','','0001-01-01 00:00:00')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "log",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:32",
+    "Tag": "DB",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:35:21",
+    "Duration": "",
+    "SQLMsg": "Error 1292: Incorrect datetime value: '0000-00-00' for column 'create_time' at row 1",
+    "RowAffected": ""
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:35:21",
+    "StatusCode": 200,
+    "ResponseNo": 10002,
+    "ResponseMsg": "创建单题失败",
+    "Duration": "399.161334ms",
+    "ResponseFlag": "15fb024323b8fcf20b12ef4982c0530d"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:35:56",
+    "IP": "::1",
+    "URI": "/v1/question/add?userId=3&questionData=%7B%22id%22:0,%22userId%22:0,%22name%22:%22%E6%B5%8B%E8%AF%95321%22,%22image%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0%22,%22imageAi%22:1,%22frames%22:%5B%7B%22id%22:0,%22userId%22:0,%22questionId%22:0,%22resourceUrl%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z%22,%22position%22:%22%22%7D%5D%7D",
+    "Method": "POST",
+    "Args": "map[userId:[3] questionData:[{\"id\":0,\"userId\":0,\"name\":\"测试321\",\"image\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0\",\"imageAi\":1,\"frames\":[{\"id\":0,\"userId\":0,\"questionId\":0,\"resourceUrl\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z\",\"position\":\"\"}]}]]",
+    "RequestFlag": "cdfcdc50cd61ef27f4077c1c5345248e"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:21",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:35:56",
+    "Duration": " [97.83ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  WHERE (name = '测试321')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "SnowFlakRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:103",
+    "Tag": "SNOWFLAK",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:35:56",
+    "RequestFlag": "5e407c728cf64ae302240d261c7e6b25",
+    "Uri": "/v1/snowflak/intId",
+    "Auth": ":d41d8cd98f00b204e9800998ecf8427e"
+}
+
+{
+    "Tip": "LogErr",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:122",
+    "Tag": "API",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:35:56",
+    "Info": "Error : Get /v1/snowflak/intId: unsupported protocol scheme \"\"",
+    "Descript": "[snowflak module]"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:34",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:35:56",
+    "Duration": " [97.65ms] ",
+    "SQLMsg": "INSERT INTO `t_questions` (`user_id`,`name`,`image_ai`,`image`,`create_time`) VALUES ('3','测试321','1','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0','2020-08-27 16:35:56')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "log",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:34",
+    "Tag": "DB",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:35:56",
+    "Duration": "",
+    "SQLMsg": "Error 1292: Incorrect datetime value: '0000-00-00' for column 'create_time' at row 1",
+    "RowAffected": ""
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:34",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:35:56",
+    "Duration": " [101.51ms] ",
+    "SQLMsg": "INSERT INTO `t_question_frames` (`user_id`,`question_id`,`resource_url`,`position`,`create_time`) VALUES ('0','3','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z','','0001-01-01 00:00:00')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "log",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:34",
+    "Tag": "DB",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:35:56",
+    "Duration": "",
+    "SQLMsg": "Error 1292: Incorrect datetime value: '0000-00-00' for column 'create_time' at row 1",
+    "RowAffected": ""
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:35:56",
+    "StatusCode": 200,
+    "ResponseNo": 10002,
+    "ResponseMsg": "创建单题失败",
+    "Duration": "396.728402ms",
+    "ResponseFlag": "cdfcdc50cd61ef27f4077c1c5345248e"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:36:44",
+    "IP": "::1",
+    "URI": "/v1/question/add?userId=3&questionData=%7B%22id%22:0,%22userId%22:0,%22name%22:%22%E6%B5%8B%E8%AF%95321%22,%22image%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0%22,%22imageAi%22:1,%22frames%22:%5B%7B%22id%22:0,%22userId%22:0,%22questionId%22:0,%22resourceUrl%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z%22,%22position%22:%22%22%7D%5D%7D",
+    "Method": "POST",
+    "Args": "map[userId:[3] questionData:[{\"id\":0,\"userId\":0,\"name\":\"测试321\",\"image\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0\",\"imageAi\":1,\"frames\":[{\"id\":0,\"userId\":0,\"questionId\":0,\"resourceUrl\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z\",\"position\":\"\"}]}]]",
+    "RequestFlag": "10ee3b0464c40fa0fa7b88152aa1c70e"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:21",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:36:44",
+    "Duration": " [85.88ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  WHERE (name = '测试321')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "SnowFlakRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:103",
+    "Tag": "SNOWFLAK",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:36:44",
+    "RequestFlag": "e039153f47da8bd372e940bef867d206",
+    "Uri": "/v1/snowflak/intId",
+    "Auth": ":d41d8cd98f00b204e9800998ecf8427e"
+}
+
+{
+    "Tip": "LogErr",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:122",
+    "Tag": "API",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:36:44",
+    "Info": "Error : Get /v1/snowflak/intId: unsupported protocol scheme \"\"",
+    "Descript": "[snowflak module]"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:36",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:36:44",
+    "Duration": " [85.64ms] ",
+    "SQLMsg": "INSERT INTO `t_questions` (`user_id`,`name`,`image_ai`,`image`,`create_time`) VALUES ('3','测试321','1','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0','2020-08-27 16:36:44')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "log",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:36",
+    "Tag": "DB",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:36:45",
+    "Duration": "",
+    "SQLMsg": "Error 1292: Incorrect datetime value: '0000-00-00' for column 'create_time' at row 1",
+    "RowAffected": ""
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:36",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:36:45",
+    "Duration": " [88.29ms] ",
+    "SQLMsg": "INSERT INTO `t_question_frames` (`user_id`,`question_id`,`resource_url`,`position`,`create_time`) VALUES ('0','4','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z','','0001-01-01 00:00:00')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "log",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:36",
+    "Tag": "DB",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:36:45",
+    "Duration": "",
+    "SQLMsg": "Error 1292: Incorrect datetime value: '0000-00-00' for column 'create_time' at row 1",
+    "RowAffected": ""
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:36:45",
+    "StatusCode": 200,
+    "ResponseNo": 10002,
+    "ResponseMsg": "创建单题失败",
+    "Duration": "347.417921ms",
+    "ResponseFlag": "10ee3b0464c40fa0fa7b88152aa1c70e"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:37:21",
+    "IP": "::1",
+    "URI": "/v1/question/add?userId=3&questionData=%7B%22id%22:0,%22userId%22:0,%22name%22:%22%E6%B5%8B%E8%AF%95321%22,%22image%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0%22,%22imageAi%22:1,%22frames%22:%5B%7B%22id%22:0,%22userId%22:0,%22questionId%22:0,%22resourceUrl%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z%22,%22position%22:%22%22%7D%5D%7D",
+    "Method": "POST",
+    "Args": "map[userId:[3] questionData:[{\"id\":0,\"userId\":0,\"name\":\"测试321\",\"image\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0\",\"imageAi\":1,\"frames\":[{\"id\":0,\"userId\":0,\"questionId\":0,\"resourceUrl\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z\",\"position\":\"\"}]}]]",
+    "RequestFlag": "cb23c81bef1d24dd2203515738e9fc88"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:19",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:37:22",
+    "Duration": " [88.61ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  WHERE (name = '测试321')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "SnowFlakRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:103",
+    "Tag": "SNOWFLAK",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:37:22",
+    "RequestFlag": "9ea1040537598b7d9e05b6895b2edd9a",
+    "Uri": "/v1/snowflak/intId",
+    "Auth": ":d41d8cd98f00b204e9800998ecf8427e"
+}
+
+{
+    "Tip": "LogErr",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:122",
+    "Tag": "API",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:37:22",
+    "Info": "Error : Get /v1/snowflak/intId: unsupported protocol scheme \"\"",
+    "Descript": "[snowflak module]"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:32",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:37:22",
+    "Duration": " [88.55ms] ",
+    "SQLMsg": "INSERT INTO `t_questions` (`user_id`,`name`,`image_ai`,`image`,`create_time`) VALUES ('3','测试321','1','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0','2020-08-27 16:37:22')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "SnowFlakRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:103",
+    "Tag": "SNOWFLAK",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:37:22",
+    "RequestFlag": "28fdb572a60bf6b3966e68bfa0ff721e",
+    "Uri": "/v1/snowflak/intId",
+    "Auth": ":d41d8cd98f00b204e9800998ecf8427e"
+}
+
+{
+    "Tip": "LogErr",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:122",
+    "Tag": "API",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:37:22",
+    "Info": "Error : Get /v1/snowflak/intId: unsupported protocol scheme \"\"",
+    "Descript": "[snowflak module]"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:47",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:37:22",
+    "Duration": " [88.53ms] ",
+    "SQLMsg": "INSERT INTO `t_question_frames` (`user_id`,`question_id`,`resource_url`,`position`,`create_time`) VALUES ('3','5','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z','','2020-08-27 16:37:22')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:37:22",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "355.619955ms",
+    "ResponseFlag": "cb23c81bef1d24dd2203515738e9fc88"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:37:22",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[limit:[20] page:[1] sort:[0] q:[] userId:[3]]",
+    "RequestFlag": "fcc45a8e760fb2cf3d6ae865c4df6423"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:37:22",
+    "Duration": " [44.28ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:37:22",
+    "Duration": " [44.81ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:37:22",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "89.471127ms",
+    "ResponseFlag": "fcc45a8e760fb2cf3d6ae865c4df6423"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:38:00",
+    "IP": "::1",
+    "URI": "/v1/question/delete?questionId=1",
+    "Method": "POST",
+    "Args": "map[questionId:[1]]",
+    "RequestFlag": "a354effdebc2da1d28e4af296f420ab2"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:108",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:38:00",
+    "Duration": " [88.53ms] ",
+    "SQLMsg": "DELETE FROM `t_questions`  WHERE (id = '1')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:109",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:38:00",
+    "Duration": " [88.21ms] ",
+    "SQLMsg": "DELETE FROM `t_question_frames`  WHERE (question_id = '1')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:38:00",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "353.786622ms",
+    "ResponseFlag": "a354effdebc2da1d28e4af296f420ab2"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:38:00",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[sort:[0] q:[] userId:[3] limit:[20] page:[1]]",
+    "RequestFlag": "aee921da202212055c11396e7629e958"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:38:00",
+    "Duration": " [44.33ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:38:00",
+    "Duration": " [44.69ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:38:00",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "89.464044ms",
+    "ResponseFlag": "aee921da202212055c11396e7629e958"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:38:02",
+    "IP": "::1",
+    "URI": "/v1/question/detail?questionId=5",
+    "Method": "GET",
+    "Args": "map[questionId:[5]]",
+    "RequestFlag": "7b1499e0edbd07f9f59eb2dccdb6840b"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:100",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:38:02",
+    "Duration": " [88.89ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`  WHERE (id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:101",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:38:02",
+    "Duration": " [88.90ms] ",
+    "SQLMsg": "SELECT * FROM `t_question_frames`  WHERE (question_id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:38:02",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "178.360344ms",
+    "ResponseFlag": "7b1499e0edbd07f9f59eb2dccdb6840b"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:38:07",
+    "IP": "::1",
+    "URI": "/v1/question/edit?userId=3&bookId=5&questionData=%7B%22id%22:5,%22userId%22:3,%22name%22:%22%E6%B5%8B%E8%AF%95321543534%22,%22imageAi%22:1,%22image%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0%22,%22frames%22:%5B%7B%22id%22:1,%22userId%22:3,%22questionId%22:5,%22resourceUrl%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z%22,%22position%22:%22%22%7D%5D%7D",
+    "Method": "POST",
+    "Args": "map[userId:[3] bookId:[5] questionData:[{\"id\":5,\"userId\":3,\"name\":\"测试321543534\",\"imageAi\":1,\"image\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0\",\"frames\":[{\"id\":1,\"userId\":3,\"questionId\":5,\"resourceUrl\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z\",\"position\":\"\"}]}]]",
+    "RequestFlag": "cab4d32f7aae47fda542b532e89fac30"
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:38:07",
+    "StatusCode": 200,
+    "ResponseNo": 10002,
+    "ResponseMsg": "map[QuestionID:[Can not be empty]]",
+    "Duration": "441.385µs",
+    "ResponseFlag": "cab4d32f7aae47fda542b532e89fac30"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:38:50",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[sort:[0] q:[] userId:[3] limit:[20] page:[1]]",
+    "RequestFlag": "8845574d7eb2238130096b28c5270168"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:38:50",
+    "Duration": " [44.02ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:38:50",
+    "Duration": " [44.54ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:38:50",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "88.898973ms",
+    "ResponseFlag": "8845574d7eb2238130096b28c5270168"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:38:51",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[limit:[20] page:[1] sort:[0] q:[] userId:[3]]",
+    "RequestFlag": "20f53c2ca5543f8f9805b04f07ee0170"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:38:51",
+    "Duration": " [44.22ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:38:51",
+    "Duration": " [44.34ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:38:51",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "88.878288ms",
+    "ResponseFlag": "20f53c2ca5543f8f9805b04f07ee0170"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:38:51",
+    "IP": "::1",
+    "URI": "/v1/question/detail?questionId=5",
+    "Method": "GET",
+    "Args": "map[questionId:[5]]",
+    "RequestFlag": "8c2d89b907bdb87dd41235e45df232e3"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:100",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:38:51",
+    "Duration": " [88.68ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`  WHERE (id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:101",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:38:52",
+    "Duration": " [88.77ms] ",
+    "SQLMsg": "SELECT * FROM `t_question_frames`  WHERE (question_id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:38:52",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "177.792328ms",
+    "ResponseFlag": "8c2d89b907bdb87dd41235e45df232e3"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:38:55",
+    "IP": "::1",
+    "URI": "/v1/question/edit?userId=3&questionId=5&questionData=%7B%22id%22:5,%22userId%22:3,%22name%22:%224343534%E6%B5%8B%E8%AF%95321%22,%22imageAi%22:1,%22image%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0%22,%22frames%22:%5B%7B%22id%22:1,%22userId%22:3,%22questionId%22:5,%22resourceUrl%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z%22,%22position%22:%22%22%7D%5D%7D",
+    "Method": "POST",
+    "Args": "map[userId:[3] questionId:[5] questionData:[{\"id\":5,\"userId\":3,\"name\":\"4343534测试321\",\"imageAi\":1,\"image\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0\",\"frames\":[{\"id\":1,\"userId\":3,\"questionId\":5,\"resourceUrl\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z\",\"position\":\"\"}]}]]",
+    "RequestFlag": "b081c5d7f088f007896893d820706da3"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:126",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:38:55",
+    "Duration": " [88.72ms] ",
+    "SQLMsg": "DELETE FROM `t_books`  WHERE (id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:127",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:38:55",
+    "Duration": " [88.68ms] ",
+    "SQLMsg": "DELETE FROM `t_book_pages`  WHERE (book_id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:128",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:38:55",
+    "Duration": " [88.60ms] ",
+    "SQLMsg": "DELETE FROM `t_page_frames`  WHERE (book_id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:19",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:38:55",
+    "Duration": " [88.57ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  WHERE (name = '4343534测试321')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "log",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:32",
+    "Tag": "DB",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:38:55",
+    "Duration": "",
+    "SQLMsg": "Error 1062: Duplicate entry '5' for key 'PRIMARY'",
+    "RowAffected": ""
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:32",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:38:55",
+    "Duration": " [88.43ms] ",
+    "SQLMsg": "INSERT INTO `t_questions` (`id`,`user_id`,`name`,`image_ai`,`image`,`create_time`) VALUES ('5','3','4343534测试321','1','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0','2020-08-27 16:38:55')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:38:55",
+    "StatusCode": 200,
+    "ResponseNo": 10002,
+    "ResponseMsg": "重建失败",
+    "Duration": "797.831065ms",
+    "ResponseFlag": "b081c5d7f088f007896893d820706da3"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:39:43",
+    "IP": "::1",
+    "URI": "/v1/question/edit?userId=3&questionId=5&questionData=%7B%22id%22:5,%22userId%22:3,%22name%22:%224343534%E6%B5%8B%E8%AF%95321%22,%22imageAi%22:1,%22image%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0%22,%22frames%22:%5B%7B%22id%22:1,%22userId%22:3,%22questionId%22:5,%22resourceUrl%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z%22,%22position%22:%22%22%7D%5D%7D",
+    "Method": "POST",
+    "Args": "map[userId:[3] questionId:[5] questionData:[{\"id\":5,\"userId\":3,\"name\":\"4343534测试321\",\"imageAi\":1,\"image\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0\",\"frames\":[{\"id\":1,\"userId\":3,\"questionId\":5,\"resourceUrl\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z\",\"position\":\"\"}]}]]",
+    "RequestFlag": "78d3a76fbcb3cbb38deca22132894532"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:126",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:39:43",
+    "Duration": " [88.79ms] ",
+    "SQLMsg": "DELETE FROM `t_books`  WHERE (id = '5')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:127",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:39:43",
+    "Duration": " [88.46ms] ",
+    "SQLMsg": "DELETE FROM `t_book_pages`  WHERE (book_id = '5')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:128",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:39:44",
+    "Duration": " [88.42ms] ",
+    "SQLMsg": "DELETE FROM `t_page_frames`  WHERE (book_id = '5')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:21",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:39:44",
+    "Duration": " [88.54ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  WHERE (name = '4343534测试321')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "log",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:34",
+    "Tag": "DB",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:39:44",
+    "Duration": "",
+    "SQLMsg": "Error 1062: Duplicate entry '5' for key 'PRIMARY'",
+    "RowAffected": ""
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:34",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:39:44",
+    "Duration": " [89.12ms] ",
+    "SQLMsg": "INSERT INTO `t_questions` (`id`,`user_id`,`name`,`image_ai`,`image`,`create_time`) VALUES ('5','3','4343534测试321','1','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0','2020-08-27 16:39:44')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:39:44",
+    "StatusCode": 200,
+    "ResponseNo": 10002,
+    "ResponseMsg": "重建失败",
+    "Duration": "799.674271ms",
+    "ResponseFlag": "78d3a76fbcb3cbb38deca22132894532"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:41:19",
+    "IP": "::1",
+    "URI": "/v1/question/edit?userId=3&questionId=5&questionData=%7B%22id%22:5,%22userId%22:3,%22name%22:%224343534%E6%B5%8B%E8%AF%95321%22,%22imageAi%22:1,%22image%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0%22,%22frames%22:%5B%7B%22id%22:1,%22userId%22:3,%22questionId%22:5,%22resourceUrl%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z%22,%22position%22:%22%22%7D%5D%7D",
+    "Method": "POST",
+    "Args": "map[userId:[3] questionId:[5] questionData:[{\"id\":5,\"userId\":3,\"name\":\"4343534测试321\",\"imageAi\":1,\"image\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0\",\"frames\":[{\"id\":1,\"userId\":3,\"questionId\":5,\"resourceUrl\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z\",\"position\":\"\"}]}]]",
+    "RequestFlag": "32438874a290846cac767eeb17c8edf3"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:108",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:41:19",
+    "Duration": " [86.83ms] ",
+    "SQLMsg": "DELETE FROM `t_questions`  WHERE (id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:109",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:41:19",
+    "Duration": " [87.09ms] ",
+    "SQLMsg": "DELETE FROM `t_question_frames`  WHERE (question_id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:19",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:41:19",
+    "Duration": " [86.88ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  WHERE (name = '4343534测试321')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:32",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:41:20",
+    "Duration": " [88.03ms] ",
+    "SQLMsg": "INSERT INTO `t_questions` (`id`,`user_id`,`name`,`image_ai`,`image`,`create_time`) VALUES ('5','3','4343534测试321','1','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0','2020-08-27 16:41:19')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:47",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:41:20",
+    "Duration": " [87.36ms] ",
+    "SQLMsg": "INSERT INTO `t_question_frames` (`id`,`user_id`,`question_id`,`resource_url`,`position`,`create_time`) VALUES ('1','3','5','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z','','2020-08-27 16:41:20')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:41:20",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "701.561998ms",
+    "ResponseFlag": "32438874a290846cac767eeb17c8edf3"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:41:20",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[sort:[0] q:[] userId:[3] limit:[20] page:[1]]",
+    "RequestFlag": "2254142041d599e5df9696b92484e827"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:41:20",
+    "Duration": " [43.32ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:41:20",
+    "Duration": " [43.53ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:41:20",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "87.200585ms",
+    "ResponseFlag": "2254142041d599e5df9696b92484e827"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:43:41",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[sort:[0] q:[] userId:[3] limit:[20] page:[1]]",
+    "RequestFlag": "56a91a6f76cfc6c97457d36057438c8f"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:43:41",
+    "Duration": " [43.59ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:43:41",
+    "Duration": " [44.51ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:43:41",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "88.487559ms",
+    "ResponseFlag": "56a91a6f76cfc6c97457d36057438c8f"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:43:42",
+    "IP": "::1",
+    "URI": "/v1/question/detail?questionId=5",
+    "Method": "GET",
+    "Args": "map[questionId:[5]]",
+    "RequestFlag": "c8c235cfe1b250ba7116e36254768673"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:100",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:43:42",
+    "Duration": " [87.18ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`  WHERE (id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:101",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:43:43",
+    "Duration": " [88.01ms] ",
+    "SQLMsg": "SELECT * FROM `t_question_frames`  WHERE (question_id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:43:43",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "175.841998ms",
+    "ResponseFlag": "c8c235cfe1b250ba7116e36254768673"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:43:48",
+    "IP": "::1",
+    "URI": "/v1/question/edit?userId=3&questionId=5&questionData=%7B%22id%22:5,%22userId%22:3,%22name%22:%224343534%E6%B5%8B%E8%AF%953216546%22,%22imageAi%22:1,%22image%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0%22,%22frames%22:%5B%7B%22id%22:1,%22userId%22:3,%22questionId%22:5,%22resourceUrl%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z%22,%22position%22:%22%22%7D%5D%7D",
+    "Method": "POST",
+    "Args": "map[userId:[3] questionId:[5] questionData:[{\"id\":5,\"userId\":3,\"name\":\"4343534测试3216546\",\"imageAi\":1,\"image\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0\",\"frames\":[{\"id\":1,\"userId\":3,\"questionId\":5,\"resourceUrl\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z\",\"position\":\"\"}]}]]",
+    "RequestFlag": "cd5f562e6169bdb20c6cec15f24331d6"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:108",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:43:48",
+    "Duration": " [86.34ms] ",
+    "SQLMsg": "DELETE FROM `t_questions`  WHERE (id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:109",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:43:49",
+    "Duration": " [86.61ms] ",
+    "SQLMsg": "DELETE FROM `t_question_frames`  WHERE (question_id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:19",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:43:49",
+    "Duration": " [86.99ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  WHERE (name = '4343534测试3216546')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:32",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:43:49",
+    "Duration": " [87.26ms] ",
+    "SQLMsg": "INSERT INTO `t_questions` (`id`,`user_id`,`name`,`image_ai`,`image`,`create_time`) VALUES ('5','3','4343534测试3216546','1','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517305352fu8kskl0','2020-08-27 16:43:49')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:47",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:43:49",
+    "Duration": " [86.93ms] ",
+    "SQLMsg": "INSERT INTO `t_question_frames` (`id`,`user_id`,`question_id`,`resource_url`,`position`,`create_time`) VALUES ('1','3','5','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517318718eqtxvd4z','','2020-08-27 16:43:49')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:43:49",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "696.122329ms",
+    "ResponseFlag": "cd5f562e6169bdb20c6cec15f24331d6"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:43:49",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[limit:[20] page:[1] sort:[0] q:[] userId:[3]]",
+    "RequestFlag": "0b41417b694ad8f1857c5df2bc01cb7c"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:43:49",
+    "Duration": " [43.34ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:43:49",
+    "Duration": " [43.70ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:43:49",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "87.500329ms",
+    "ResponseFlag": "0b41417b694ad8f1857c5df2bc01cb7c"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:44:24",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[limit:[20] page:[1] sort:[0] q:[] userId:[3]]",
+    "RequestFlag": "16b2e9fb5b1df9833a0383365e87c700"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:44:24",
+    "Duration": " [46.23ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:44:24",
+    "Duration": " [43.62ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:44:24",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "90.250569ms",
+    "ResponseFlag": "16b2e9fb5b1df9833a0383365e87c700"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:44:24",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "1062b84bbb1b6a17d3cedf98d0909f70"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:44:24",
+    "Duration": " [43.43ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:44:24",
+    "Duration": " [43.57ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:44:24",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "87.354173ms",
+    "ResponseFlag": "1062b84bbb1b6a17d3cedf98d0909f70"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:44:43",
+    "IP": "::1",
+    "URI": "/v1/question/add?userId=3&questionData=%7B%22id%22:0,%22userId%22:0,%22name%22:%22%E6%B5%8B%E8%AF%95345%22,%22image%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517879347gc9pz040%22,%22imageAi%22:1,%22frames%22:%5B%7B%22id%22:0,%22userId%22:0,%22questionId%22:0,%22resourceUrl%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517882336if860cr9%22,%22position%22:%22%22%7D%5D%7D",
+    "Method": "POST",
+    "Args": "map[userId:[3] questionData:[{\"id\":0,\"userId\":0,\"name\":\"测试345\",\"image\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517879347gc9pz040\",\"imageAi\":1,\"frames\":[{\"id\":0,\"userId\":0,\"questionId\":0,\"resourceUrl\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517882336if860cr9\",\"position\":\"\"}]}]]",
+    "RequestFlag": "e32803d732427119276f07027b52cff1"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:19",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:44:43",
+    "Duration": " [86.90ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  WHERE (name = '测试345')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "SnowFlakRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:103",
+    "Tag": "SNOWFLAK",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:44:43",
+    "RequestFlag": "4a6f7570a5b1ad78561cb19ab9245c4a",
+    "Uri": "/v1/snowflak/intId",
+    "Auth": ":d41d8cd98f00b204e9800998ecf8427e"
+}
+
+{
+    "Tip": "LogErr",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:122",
+    "Tag": "API",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:44:43",
+    "Info": "Error : Get /v1/snowflak/intId: unsupported protocol scheme \"\"",
+    "Descript": "[snowflak module]"
+}
+
+{
+    "Tip": "log",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:32",
+    "Tag": "DB",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:44:43",
+    "Duration": "",
+    "SQLMsg": "Error 1364: Field 'id' doesn't have a default value",
+    "RowAffected": ""
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:32",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:44:43",
+    "Duration": " [87.18ms] ",
+    "SQLMsg": "INSERT INTO `t_questions` (`user_id`,`name`,`image_ai`,`image`,`create_time`) VALUES ('3','测试345','1','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517879347gc9pz040','2020-08-27 16:44:43')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:44:43",
+    "StatusCode": 200,
+    "ResponseNo": 10002,
+    "ResponseMsg": "创建单题失败",
+    "Duration": "261.748566ms",
+    "ResponseFlag": "e32803d732427119276f07027b52cff1"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:45:28",
+    "IP": "::1",
+    "URI": "/v1/question/add?userId=3&questionData=%7B%22id%22:0,%22userId%22:0,%22name%22:%22%E6%B5%8B%E8%AF%95345%22,%22image%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517879347gc9pz040%22,%22imageAi%22:1,%22frames%22:%5B%7B%22id%22:0,%22userId%22:0,%22questionId%22:0,%22resourceUrl%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517882336if860cr9%22,%22position%22:%22%22%7D%5D%7D",
+    "Method": "POST",
+    "Args": "map[userId:[3] questionData:[{\"id\":0,\"userId\":0,\"name\":\"测试345\",\"image\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517879347gc9pz040\",\"imageAi\":1,\"frames\":[{\"id\":0,\"userId\":0,\"questionId\":0,\"resourceUrl\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517882336if860cr9\",\"position\":\"\"}]}]]",
+    "RequestFlag": "0371abf32d38efe7015d14d3a523f8ed"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:21",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:45:28",
+    "Duration": " [88.56ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  WHERE (name = '测试345')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "SnowFlakRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:103",
+    "Tag": "SNOWFLAK",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:45:28",
+    "RequestFlag": "9e2b30ef2f13bdf8f1fcc0f87211a5d9",
+    "Uri": "/v1/snowflak/intId",
+    "Auth": ":d41d8cd98f00b204e9800998ecf8427e"
+}
+
+{
+    "Tip": "LogErr",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:122",
+    "Tag": "API",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:45:28",
+    "Info": "Error : Get /v1/snowflak/intId: unsupported protocol scheme \"\"",
+    "Descript": "[snowflak module]"
+}
+
+{
+    "Tip": "log",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:34",
+    "Tag": "DB",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:45:28",
+    "Duration": "",
+    "SQLMsg": "Error 1364: Field 'id' doesn't have a default value",
+    "RowAffected": ""
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:34",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:45:28",
+    "Duration": " [89.03ms] ",
+    "SQLMsg": "INSERT INTO `t_questions` (`user_id`,`name`,`image_ai`,`image`,`create_time`) VALUES ('3','测试345','1','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517879347gc9pz040','2020-08-27 16:45:28')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:45:28",
+    "StatusCode": 200,
+    "ResponseNo": 10002,
+    "ResponseMsg": "创建单题失败",
+    "Duration": "267.448957ms",
+    "ResponseFlag": "0371abf32d38efe7015d14d3a523f8ed"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:46:19",
+    "IP": "::1",
+    "URI": "/v1/question/add?userId=3&questionData=%7B%22id%22:0,%22userId%22:0,%22name%22:%22%E6%B5%8B%E8%AF%95345%22,%22image%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517879347gc9pz040%22,%22imageAi%22:1,%22frames%22:%5B%7B%22id%22:0,%22userId%22:0,%22questionId%22:0,%22resourceUrl%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517882336if860cr9%22,%22position%22:%22%22%7D%5D%7D",
+    "Method": "POST",
+    "Args": "map[userId:[3] questionData:[{\"id\":0,\"userId\":0,\"name\":\"测试345\",\"image\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517879347gc9pz040\",\"imageAi\":1,\"frames\":[{\"id\":0,\"userId\":0,\"questionId\":0,\"resourceUrl\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517882336if860cr9\",\"position\":\"\"}]}]]",
+    "RequestFlag": "2998c930e13391c1caf1bff3d197d3dd"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:21",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:46:19",
+    "Duration": " [87.89ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  WHERE (name = '测试345')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "SnowFlakRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:103",
+    "Tag": "SNOWFLAK",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:46:19",
+    "RequestFlag": "d93066e289f1b0bc9d5d3a20f919eb08",
+    "Uri": "/v1/snowflak/intId",
+    "Auth": ":d41d8cd98f00b204e9800998ecf8427e"
+}
+
+{
+    "Tip": "LogErr",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:122",
+    "Tag": "API",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:46:19",
+    "Info": "Error : Get /v1/snowflak/intId: unsupported protocol scheme \"\"",
+    "Descript": "[snowflak module]"
+}
+
+{
+    "Tip": "log",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:35",
+    "Tag": "DB",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:46:19",
+    "Duration": "",
+    "SQLMsg": "Error 1364: Field 'id' doesn't have a default value",
+    "RowAffected": ""
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:35",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:46:19",
+    "Duration": " [87.78ms] ",
+    "SQLMsg": "INSERT INTO `t_questions` (`user_id`,`name`,`image_ai`,`image`,`create_time`) VALUES ('3','测试345','1','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517879347gc9pz040','2020-08-27 16:46:19')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:46:19",
+    "StatusCode": 200,
+    "ResponseNo": 10002,
+    "ResponseMsg": "创建单题失败",
+    "Duration": "265.009422ms",
+    "ResponseFlag": "2998c930e13391c1caf1bff3d197d3dd"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:49:15",
+    "IP": "::1",
+    "URI": "/v1/question/add?userId=3&questionData=%7B%22id%22:0,%22userId%22:0,%22name%22:%22%E6%B5%8B%E8%AF%95345%22,%22image%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517879347gc9pz040%22,%22imageAi%22:1,%22frames%22:%5B%7B%22id%22:0,%22userId%22:0,%22questionId%22:0,%22resourceUrl%22:%22https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517882336if860cr9%22,%22position%22:%22%22%7D%5D%7D",
+    "Method": "POST",
+    "Args": "map[userId:[3] questionData:[{\"id\":0,\"userId\":0,\"name\":\"测试345\",\"image\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517879347gc9pz040\",\"imageAi\":1,\"frames\":[{\"id\":0,\"userId\":0,\"questionId\":0,\"resourceUrl\":\"https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517882336if860cr9\",\"position\":\"\"}]}]]",
+    "RequestFlag": "6ec04f91d49633a50a65d9df5f6ffab2"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:19",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:49:15",
+    "Duration": " [84.06ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  WHERE (name = '测试345')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "SnowFlakRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:103",
+    "Tag": "SNOWFLAK",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:49:15",
+    "RequestFlag": "1ebe1757afa14ab76f4158e3aaad86cb",
+    "Uri": "/v1/snowflak/intId",
+    "Auth": ":d41d8cd98f00b204e9800998ecf8427e"
+}
+
+{
+    "Tip": "LogErr",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:122",
+    "Tag": "API",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:49:15",
+    "Info": "Error : Get /v1/snowflak/intId: unsupported protocol scheme \"\"",
+    "Descript": "[snowflak module]"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:32",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:49:16",
+    "Duration": " [83.60ms] ",
+    "SQLMsg": "INSERT INTO `t_questions` (`user_id`,`name`,`image_ai`,`image`,`create_time`) VALUES ('3','测试345','1','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517879347gc9pz040','2020-08-27 16:49:15')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "SnowFlakRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:103",
+    "Tag": "SNOWFLAK",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:49:16",
+    "RequestFlag": "34f76601a997cba2aed5e67f3f5701be",
+    "Uri": "/v1/snowflak/intId",
+    "Auth": ":d41d8cd98f00b204e9800998ecf8427e"
+}
+
+{
+    "Tip": "LogErr",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/snowflakcurl.go:122",
+    "Tag": "API",
+    "Level": 2,
+    "BaseTime": "2020-08-27 16:49:16",
+    "Info": "Error : Get /v1/snowflak/intId: unsupported protocol scheme \"\"",
+    "Descript": "[snowflak module]"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:47",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:49:16",
+    "Duration": " [83.83ms] ",
+    "SQLMsg": "INSERT INTO `t_question_frames` (`user_id`,`question_id`,`resource_url`,`position`,`create_time`) VALUES ('3','6','https://knowtech-1302822727.cos.ap-guangzhou.myqcloud.com/1598517882336if860cr9','','2020-08-27 16:49:16')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:49:16",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "336.192002ms",
+    "ResponseFlag": "6ec04f91d49633a50a65d9df5f6ffab2"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:49:16",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[page:[1] sort:[0] q:[] userId:[3] limit:[20]]",
+    "RequestFlag": "369fd8622fa1195d277d032e1df10a1a"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:49:16",
+    "Duration": " [41.71ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:49:16",
+    "Duration": " [42.31ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:49:16",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "84.44572ms",
+    "ResponseFlag": "369fd8622fa1195d277d032e1df10a1a"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:55:02",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "bfe89be9bf03e889a46cc2ce4440cc43"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:55:02",
+    "Duration": " [45.10ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:55:02",
+    "Duration": " [45.28ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:55:02",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "90.994916ms",
+    "ResponseFlag": "bfe89be9bf03e889a46cc2ce4440cc43"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:55:03",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[q:[] userId:[3] limit:[20] page:[1] sort:[0]]",
+    "RequestFlag": "89899c4e00549623ae9482b2bef10bbd"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:55:03",
+    "Duration": " [45.04ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:55:03",
+    "Duration": " [45.33ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:55:03",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "90.817779ms",
+    "ResponseFlag": "89899c4e00549623ae9482b2bef10bbd"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:55:04",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[limit:[20] page:[1] sort:[0] q:[] userId:[3]]",
+    "RequestFlag": "04d7d7d781b73fe8ce10d51a990749ca"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:55:04",
+    "Duration": " [44.95ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:55:04",
+    "Duration": " [45.30ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:55:04",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "90.621713ms",
+    "ResponseFlag": "04d7d7d781b73fe8ce10d51a990749ca"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:55:13",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "2e3a3a50ce1fd746d0372e1c2768895c"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:55:13",
+    "Duration": " [44.97ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:55:13",
+    "Duration": " [45.45ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:55:13",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "90.789046ms",
+    "ResponseFlag": "2e3a3a50ce1fd746d0372e1c2768895c"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:55:13",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "e85c00312aef4573b0f3045ee3d70817"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:55:13",
+    "Duration": " [44.92ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:55:13",
+    "Duration": " [45.34ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:55:13",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "90.590246ms",
+    "ResponseFlag": "e85c00312aef4573b0f3045ee3d70817"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:55:39",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "1841b28532e6cf407de17d63c9a3af6f"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:55:39",
+    "Duration": " [45.03ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:55:39",
+    "Duration": " [49.15ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:55:39",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.621884ms",
+    "ResponseFlag": "1841b28532e6cf407de17d63c9a3af6f"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:55:39",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[sort:[0] q:[] userId:[3] limit:[20] page:[1]]",
+    "RequestFlag": "60d66bad54982c01208c1a97b7b9d2b3"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:55:39",
+    "Duration": " [45.11ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:55:39",
+    "Duration": " [45.16ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:55:39",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "90.619243ms",
+    "ResponseFlag": "60d66bad54982c01208c1a97b7b9d2b3"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:55:51",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[q:[] userId:[3] limit:[20] page:[1] sort:[0]]",
+    "RequestFlag": "ddbd0a5615b762aaba16200e42310e84"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:55:51",
+    "Duration": " [44.91ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:55:51",
+    "Duration": " [45.43ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:55:51",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "90.774084ms",
+    "ResponseFlag": "ddbd0a5615b762aaba16200e42310e84"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:55:51",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "60bdb4f74d0b78dd1e6db6602828b429"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:55:51",
+    "Duration": " [45.07ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:55:52",
+    "Duration": " [45.27ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:55:52",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "90.722998ms",
+    "ResponseFlag": "60bdb4f74d0b78dd1e6db6602828b429"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:57:35",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "9fd32632cca1d32d25eab2a20955a7e0"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:57:35",
+    "Duration": " [45.07ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:57:35",
+    "Duration": " [45.24ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:57:35",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "90.689592ms",
+    "ResponseFlag": "9fd32632cca1d32d25eab2a20955a7e0"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:57:35",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[sort:[0] q:[] userId:[3] limit:[20] page:[1]]",
+    "RequestFlag": "b894a6497cecd244d89976cc708c4d13"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:57:36",
+    "Duration": " [44.93ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:57:36",
+    "Duration": " [45.76ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:57:36",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "91.08168ms",
+    "ResponseFlag": "b894a6497cecd244d89976cc708c4d13"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:57:41",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "2d74d208ed27438653d9267701abfbcc"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:57:41",
+    "Duration": " [44.98ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:57:41",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "0ff249021cc6af12de00cec25b034b5b"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:57:42",
+    "Duration": " [45.42ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:57:42",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "90.818012ms",
+    "ResponseFlag": "2d74d208ed27438653d9267701abfbcc"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:57:42",
+    "Duration": " [608.43ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:57:42",
+    "Duration": " [45.54ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:57:42",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "654.417865ms",
+    "ResponseFlag": "0ff249021cc6af12de00cec25b034b5b"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:57:55",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "5c28ff6a31e6cccb6c614400263c6cce"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:57:55",
+    "Duration": " [45.70ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:57:55",
+    "Duration": " [45.33ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:57:55",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "91.498112ms",
+    "ResponseFlag": "5c28ff6a31e6cccb6c614400263c6cce"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:57:56",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[q:[] userId:[3] limit:[20] page:[1] sort:[0]]",
+    "RequestFlag": "8dea128ebf737cfbe8e79edd34c3f82c"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:57:56",
+    "Duration": " [45.64ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:57:56",
+    "Duration": " [45.15ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:57:56",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "91.189864ms",
+    "ResponseFlag": "8dea128ebf737cfbe8e79edd34c3f82c"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:58:04",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[sort:[0] q:[] userId:[3] limit:[20] page:[1]]",
+    "RequestFlag": "e82ed3ebe679557b447279861153f9a7"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:58:04",
+    "Duration": " [45.64ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:58:04",
+    "Duration": " [47.51ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:58:04",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "94.003662ms",
+    "ResponseFlag": "e82ed3ebe679557b447279861153f9a7"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:58:04",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[sort:[0] q:[] userId:[3] limit:[20] page:[1]]",
+    "RequestFlag": "aa86af24ea532de3d93bf142fccdb703"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:58:04",
+    "Duration": " [45.59ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:58:04",
+    "Duration": " [45.22ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:58:04",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "91.163657ms",
+    "ResponseFlag": "aa86af24ea532de3d93bf142fccdb703"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:58:14",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[limit:[20] page:[1] sort:[0] q:[] userId:[3]]",
+    "RequestFlag": "70c4d46e0ad000689dea04efad0c7f3e"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:58:14",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[page:[1] sort:[0] q:[] userId:[3] limit:[20]]",
+    "RequestFlag": "e3dc7cc1a78bfefde81987bce10470ed"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:58:14",
+    "Duration": " [45.50ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:58:14",
+    "Duration": " [44.90ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:58:14",
+    "Duration": " [45.82ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:58:14",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "91.690862ms",
+    "ResponseFlag": "70c4d46e0ad000689dea04efad0c7f3e"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:58:14",
+    "Duration": " [45.21ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:58:14",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "90.517386ms",
+    "ResponseFlag": "e3dc7cc1a78bfefde81987bce10470ed"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:22",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[q:[] userId:[3] limit:[20] page:[1] sort:[0]]",
+    "RequestFlag": "e1c2fd8e63c8012171ecb3c1e6b7c3bd"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:22",
+    "Duration": " [45.70ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:22",
+    "Duration": " [45.45ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:22",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "91.505795ms",
+    "ResponseFlag": "e1c2fd8e63c8012171ecb3c1e6b7c3bd"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:23",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[page:[1] sort:[0] q:[] userId:[3] limit:[20]]",
+    "RequestFlag": "fc305fb4130a4736d9e6823bb6846c25"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:23",
+    "Duration": " [45.67ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:23",
+    "Duration": " [45.52ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:23",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "91.598407ms",
+    "ResponseFlag": "fc305fb4130a4736d9e6823bb6846c25"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:28",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "23e5cf7e01a2a298fe4521c9291b60f0"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:28",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[page:[1] sort:[0] q:[] userId:[3] limit:[20]]",
+    "RequestFlag": "647e14dc13ac1327754bbe2a0e7fb58b"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:28",
+    "Duration": " [45.62ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:28",
+    "Duration": " [45.15ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:28",
+    "Duration": " [45.81ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:28",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "91.799962ms",
+    "ResponseFlag": "23e5cf7e01a2a298fe4521c9291b60f0"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:28",
+    "Duration": " [45.24ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:28",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "90.807732ms",
+    "ResponseFlag": "647e14dc13ac1327754bbe2a0e7fb58b"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:47",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[limit:[20] page:[1] sort:[0] q:[] userId:[3]]",
+    "RequestFlag": "09a4e730ffbc3d475ba750f70d9c6bdc"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:47",
+    "Duration": " [45.75ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:47",
+    "Duration": " [45.23ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:47",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "91.307092ms",
+    "ResponseFlag": "09a4e730ffbc3d475ba750f70d9c6bdc"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:48",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "d7643b885b4a1ad0651709d30530f0c8"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:48",
+    "Duration": " [45.63ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:48",
+    "Duration": " [45.29ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:48",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "91.260565ms",
+    "ResponseFlag": "d7643b885b4a1ad0651709d30530f0c8"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:49",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "679eaccdd5902c0c40cd81bfa06198ca"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:49",
+    "Duration": " [45.80ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:49",
+    "Duration": " [45.56ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:49",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "102.588635ms",
+    "ResponseFlag": "679eaccdd5902c0c40cd81bfa06198ca"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:50",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[limit:[20] page:[1] sort:[0] q:[] userId:[3]]",
+    "RequestFlag": "1893d785275d58230157e16a98481600"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:50",
+    "Duration": " [45.71ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:50",
+    "Duration": " [45.35ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:50",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "91.380351ms",
+    "ResponseFlag": "1893d785275d58230157e16a98481600"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:50",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "ab40f1957981fcc713881ca1ed3b9ec3"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:50",
+    "Duration": " [45.61ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:50",
+    "Duration": " [45.32ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:50",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "91.528391ms",
+    "ResponseFlag": "ab40f1957981fcc713881ca1ed3b9ec3"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:51",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "015c75ea72109b4e63182c24e248234c"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:51",
+    "Duration": " [45.89ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:51",
+    "Duration": " [45.43ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:51",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "91.745488ms",
+    "ResponseFlag": "015c75ea72109b4e63182c24e248234c"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:51",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "66b2c9aa93789f7510b81b49c2f60798"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:51",
+    "Duration": " [45.72ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:52",
+    "Duration": " [45.36ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:52",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "91.4377ms",
+    "ResponseFlag": "66b2c9aa93789f7510b81b49c2f60798"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:52",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "fc04a3d7eceda56c01c44012605f2be6"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:52",
+    "Duration": " [45.70ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:52",
+    "Duration": " [45.40ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:52",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "91.61984ms",
+    "ResponseFlag": "fc04a3d7eceda56c01c44012605f2be6"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:53",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "6b277f647156a72bad7c35378961e157"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:53",
+    "Duration": " [45.60ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:53",
+    "Duration": " [45.37ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:53",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "91.335644ms",
+    "ResponseFlag": "6b277f647156a72bad7c35378961e157"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:53",
+    "IP": "::1",
+    "URI": "/v1/book/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[limit:[20] page:[1] sort:[0] q:[] userId:[3]]",
+    "RequestFlag": "c330887f024c4337680bea8045e050fc"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:102",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:54",
+    "Duration": " [45.71ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_books`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/book.go:107",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:54",
+    "Duration": " [45.29ms] ",
+    "SQLMsg": "SELECT * FROM `t_books`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:54",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "91.369679ms",
+    "ResponseFlag": "c330887f024c4337680bea8045e050fc"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:54",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=",
+    "Method": "GET",
+    "Args": "map[userId:[3] limit:[20] page:[1] sort:[0] q:[]]",
+    "RequestFlag": "39acf3ae4c4ae1e85a403d40f7871469"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:54",
+    "Duration": " [45.59ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  ",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:54",
+    "Duration": " [45.39ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`   ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 2 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:54",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "91.353353ms",
+    "ResponseFlag": "39acf3ae4c4ae1e85a403d40f7871469"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:58",
+    "IP": "::1",
+    "URI": "/v1/question/list?userId=3&limit=20&page=1&sort=0&q=%E6%B5%8B%E8%AF%95321654",
+    "Method": "GET",
+    "Args": "map[limit:[20] page:[1] sort:[0] q:[测试321654] userId:[3]]",
+    "RequestFlag": "855403d3ebec5f7d033345e253e116cb"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:88",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:58",
+    "Duration": " [91.20ms] ",
+    "SQLMsg": "SELECT count(*) FROM `t_questions`  WHERE (name LIKE '%测试321654%')",
+    "RowAffected": " 0 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:93",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 16:59:58",
+    "Duration": " [90.79ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`  WHERE (name LIKE '%测试321654%') ORDER BY create_time DESC LIMIT 20 OFFSET 0",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:58",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "182.735913ms",
+    "ResponseFlag": "855403d3ebec5f7d033345e253e116cb"
+}
+
+{
+    "Tip": "APIRequest",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:113",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 16:59:59",
+    "IP": "::1",
+    "URI": "/v1/question/detail?questionId=5",
+    "Method": "GET",
+    "Args": "map[questionId:[5]]",
+    "RequestFlag": "8c5bf40cef0ea8e5599655181e47846d"
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:104",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 17:00:00",
+    "Duration": " [91.53ms] ",
+    "SQLMsg": "SELECT * FROM `t_questions`  WHERE (id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "sql",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/models/question.go:105",
+    "Tag": "DB",
+    "Level": 0,
+    "BaseTime": "2020-08-27 17:00:00",
+    "Duration": " [90.87ms] ",
+    "SQLMsg": "SELECT * FROM `t_question_frames`  WHERE (question_id = '5')",
+    "RowAffected": " 1 rows affected or returned  "
+}
+
+{
+    "Tip": "APIResponse",
+    "Source": "/home/dashuai/go/src/gitlab.dreamdev.cn/ebag/knowtech-api/controllers/base.go:118",
+    "Tag": "API",
+    "Level": 1,
+    "BaseTime": "2020-08-27 17:00:00",
+    "StatusCode": 200,
+    "ResponseNo": 10000,
+    "ResponseMsg": "成功",
+    "Duration": "183.049671ms",
+    "ResponseFlag": "8c5bf40cef0ea8e5599655181e47846d"
+}
+
