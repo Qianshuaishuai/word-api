@@ -7,6 +7,10 @@ import (
 	"time"
 )
 
+const (
+	AI_BASE_URL = "http://240225d4j1.qicp.vip:19231"
+)
+
 func AddBook(userId int, bookData string) (err error) {
 	var snow *MSnowflakCurl
 	tx := GetDb().Begin()
@@ -42,6 +46,11 @@ func AddBook(userId int, bookData string) (err error) {
 		receiverBook.Pages[p].BookID = receiverBook.ID
 		receiverBook.Pages[p].CreateTime = time.Now()
 		receiverBook.Pages[p].UserID = userId
+
+		//如果imageAi为1且page对应的AiContent字段为空（即代表未Ai处理过），则开启Ai处理
+		if receiverBook.ImageAi == 1 {
+
+		}
 
 		err = tx.Table("t_book_pages").Create(&receiverBook.Pages[p]).Error
 		if err != nil {
