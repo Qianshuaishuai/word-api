@@ -10,38 +10,68 @@ const (
 	DEFAULT_LOGIN_TIME        = 120
 )
 
+//修改
+func Setting(phone string, grade int, subjects, organ, address, introduce string) (user User, err error) {
+	GetDb().Table("t_users").Where("phone = ?", phone).Find(&user)
+
+	if user.Phone == "" {
+		return user, errors.New("未找到帐号")
+	}
+
+	user.Phone = phone
+	user.Grade = grade
+	user.Subjects = subjects
+	user.Organ = organ
+	user.Address = address
+	user.Introduce = introduce
+	user.CreateTime = time.Now()
+
+	err = GetDb().Table("t_users").Where("phone = ?", phone).Update(&user).Error
+	if err != nil {
+		return user, errors.New("更新失败")
+	}
+
+	return user, nil
+}
+
 //注册接口
-func Register(phone, password, codeStr string) (err error) {
+func Register(username, phone, password, codeStr string, grade int, subjects, organ, address, introduce string) (newUser User, err error) {
 	var code Code
 	GetDb().Table("t_codes").Where("phone = ? AND code = ?", phone, codeStr).Find(&code)
 
 	if code.Phone == "" {
-		return errors.New("验证玛错误")
+		return newUser, errors.New("验证玛错误")
 	}
 
 	nowTime := time.Now()
 	offsetTime := nowTime.Sub(code.Time).Minutes()
 
 	if offsetTime > DEFAULT_OVERDUE_CODE_TIME {
-		return errors.New("验证玛过期")
+		return newUser, errors.New("验证玛过期")
 	}
 
 	var user User
 	user.Phone = phone
 	user.Password, user.Salt = TranslateUserPassword(password)
+	user.Username = username
+	user.Grade = grade
+	user.Subjects = subjects
+	user.Organ = organ
+	user.Address = address
+	user.Introduce = introduce
 	user.CreateTime = time.Now()
 
 	var count int
 	GetDb().Table("t_users").Where("phone = ?", phone).Count(&count)
 
 	if count > 0 {
-		return errors.New("账号已注册")
+		return newUser, errors.New("账号已注册")
 	}
 
 	err = GetDb().Table("t_users").Create(&user).Error
 
 	if err != nil {
-		return errors.New("创建失败")
+		return newUser, errors.New("创建失败")
 	}
 
 	var status LoginStatus
@@ -57,13 +87,25 @@ func Register(phone, password, codeStr string) (err error) {
 		GetDb().Table("t_login_status").Where("phone = ?", phone).Update(&status)
 	}
 
-	return nil
+	GetDb().Table("t_users").Where("phone = ?", phone).Find(&newUser)
+
+	if user.Phone == "" {
+		return newUser, errors.New("未找到该用户信息")
+	}
+
+	return newUser, nil
 }
 
 //登录接口(普通模式)
 func CommonLogin(phone, password string) (user User, err error) {
 	var checkUser User
-	GetDb().Table("t_users").Where("phone = ?", phone).Find(&checkUser)
+
+	phoneLength := len([]rune(phone))
+	if phoneLength == 11 {
+		GetDb().Table("t_users").Where("phone = ?", phone).Find(&checkUser)
+	} else {
+		GetDb().Table("t_users").Where("username = ?", phone).Find(&checkUser)
+	}
 
 	if checkUser.Phone == "" {
 		return user, errors.New("该账号未注册")
@@ -80,15 +122,15 @@ func CommonLogin(phone, password string) (user User, err error) {
 	status.Time = time.Now()
 
 	var statusCount int
-	GetDb().Table("t_login_status").Where("phone = ?", phone).Count(&statusCount)
+	GetDb().Table("t_login_status").Where("phone = ?", checkUser.Phone).Count(&statusCount)
 
 	if statusCount <= 0 {
 		GetDb().Table("t_login_status").Create(&status)
 	} else {
-		GetDb().Table("t_login_status").Where("phone = ?", phone).Update(&status)
+		GetDb().Table("t_login_status").Where("phone = ?", checkUser.Phone).Update(&status)
 	}
 
-	GetDb().Table("t_users").Where("phone = ?", phone).Find(&user)
+	GetDb().Table("t_users").Where("phone = ?", checkUser.Phone).Find(&user)
 
 	if user.Phone == "" {
 		return user, errors.New("未找到该用户信息")

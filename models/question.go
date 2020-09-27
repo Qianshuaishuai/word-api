@@ -57,7 +57,7 @@ func AddQuestion(userId int, questionData string) (err error) {
 
 //获取题目列表（带分页）
 func GetQuestionList(userId int, limit int, page int, sort int, q string) (datas []Question, count int, err error) {
-	db := GetDb().Table("t_questions")
+	db := GetDb().Table("t_questions").Where("user_id = ?", userId)
 
 	//处理分页参数
 	var offset int

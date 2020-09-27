@@ -23,6 +23,7 @@ func init() {
 	beego.Router("/v1/user/get", &controllers.UserController{}, "get:Get")
 	beego.Router("/v1/user/code", &controllers.UserController{}, "post:Code")
 	beego.Router("/v1/user/logout", &controllers.UserController{}, "post:Logout")
+	beego.Router("/v1/user/setting", &controllers.UserController{}, "post:Setting")
 
 	//同步书本相关
 	beego.Router("/v1/book/add", &controllers.BookController{}, "post:AddBook")

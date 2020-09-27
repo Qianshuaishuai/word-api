@@ -9,9 +9,12 @@ type User struct {
 	Enable     int       `gorm:"column:enable" json:"enable"`
 	Password   string    `gorm:"column:password" json:"-"`
 	Salt       string    `gorm:"column:salt" json:"-"`
-	Nickname   string    `gorm:"column:nickname" json:"nickname"`
-	Sex        int       `gorm:"column:sex" json:"sex"`
-	Company    string    `gorm:"column:company" json:"company"`
+	Username   string    `gorm:"column:username" json:"username"`
+	Grade      int       `gorm:"column:grade" json:"grade"`
+	Subjects   string    `gorm:"column:subjects" json:"subjects"`
+	Organ      string    `gorm:"column:organ" json:"organ"`
+	Address    string    `gorm:"column:address" json:"address"`
+	Introduce  string    `gorm:"column:introduce" json:"introduce"`
 	CreateTime time.Time `gorm:"column:create_time" json:"-"`
 }
 

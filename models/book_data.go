@@ -5,6 +5,7 @@ import "time"
 type Book struct {
 	ID            int       `gorm:"column:id" json:"id"`
 	UserID        int       `gorm:"column:user_id" json:"userId"`
+	Subject       int       `gorm:"column:subject" json:"subject"`
 	Name          string    `gorm:"column:name" json:"name"`
 	Press         string    `gorm:"column:press" json:"press"`
 	Grade         int       `gorm:"column:grade" json:"grade"`

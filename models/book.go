@@ -80,7 +80,7 @@ func AddBook(userId int, bookData string) (err error) {
 
 //获取书本列表（带分页）
 func GetBookList(userId int, limit int, page int, sort int, q string) (datas []Book, count int, err error) {
-	db := GetDb().Table("t_books")
+	db := GetDb().Table("t_books").Where("user_id = ?", userId)
 
 	//处理分页参数
 	var offset int

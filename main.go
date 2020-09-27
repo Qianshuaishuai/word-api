@@ -20,7 +20,7 @@ func main() {
 		loglib.GetLogger().LogErr(errPing, "can't connect db")
 		return
 	}
-
+	models.Test()
 	//如果服务器Panic ，返回500错，而不是错误信息。并且记录
 	beego.ErrorController(&controllers.ErrorController{})
 	beego.Run()

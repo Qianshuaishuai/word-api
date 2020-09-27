@@ -1,7 +1,6 @@
 package controllers
 
 import (
-	"github.com/astaxie/beego"
 	"gitlab.dreamdev.cn/ebag/knowtech-api/models"
 )
 
@@ -9,10 +8,25 @@ type UserController struct {
 	BaseController
 }
 
+type SettingParam struct {
+	Phone     string `form:"phone" valid:"Required"`
+	Grade     int    `form:"grade"`
+	Subjects  string `form:"subjects"`
+	Organ     string `form:"organ"`
+	Address   string `form:"address"`
+	Introduce string `form:"introduce"`
+}
+
 type RegisterParam struct {
-	Phone    string `form:"phone" valid:"Required"`
-	Password string `form:"password" valid:"Required"`
-	Code     string `form:"code" valid:"Required"`
+	Username  string `form:"username"`
+	Phone     string `form:"phone" valid:"Required"`
+	Password  string `form:"password" valid:"Required"`
+	Code      string `form:"code" valid:"Required"`
+	Grade     int    `form:"grade"`
+	Subjects  string `form:"subjects"`
+	Organ     string `form:"organ"`
+	Address   string `form:"address"`
+	Introduce string `form:"introduce"`
 }
 
 type ForgetParam struct {
@@ -58,8 +72,24 @@ func (u *UserController) Register() {
 	//get params
 	params := &RegisterParam{}
 	if u.CheckParams(datas, params) {
-		err := models.Register(params.Phone, params.Password, params.Code)
-		beego.Debug(err)
+		data, err := models.Register(params.Username, params.Phone, params.Password, params.Code, params.Grade, params.Subjects, params.Organ, params.Address, params.Introduce)
+		datas["F_data"] = data
+		u.IfErr(datas, models.RESP_PARAM_ERR, err)
+	}
+	u.jsonEcho(datas)
+}
+
+// @Title 用户修改
+// @Description 用户修改
+// @Param phone form int true 用户手机
+// @Router /v1/user/setting [post]
+func (u *UserController) Setting() {
+	datas := u.GetResponseData()
+	//get params
+	params := &SettingParam{}
+	if u.CheckParams(datas, params) {
+		data, err := models.Setting(params.Phone, params.Grade, params.Subjects, params.Organ, params.Address, params.Introduce)
+		datas["F_data"] = data
 		u.IfErr(datas, models.RESP_PARAM_ERR, err)
 	}
 	u.jsonEcho(datas)
