@@ -118,7 +118,7 @@ func CommonLogin(phone, password string) (user User, err error) {
 	}
 
 	var status LoginStatus
-	status.Phone = phone
+	status.Phone = checkUser.Phone
 	status.Time = time.Now()
 
 	var statusCount int
