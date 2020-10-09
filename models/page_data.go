@@ -7,6 +7,7 @@ type Page struct {
 	UserID     int       `gorm:"column:user_id" json:"userId"`
 	BookID     int       `gorm:"column:book_id" json:"bookId"`
 	Cover      string    `gorm:"column:cover" json:"cover"`
+	Number     int       `gorm:"column:number" json:"number"`
 	AiContent  string    `gorm:"column:ai_content" json:"aiContent"`
 	CreateTime time.Time `gorm:"column:create_time" json:"-"`
 

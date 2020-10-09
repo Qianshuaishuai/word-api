@@ -6,6 +6,7 @@ import "time"
 type User struct {
 	ID         int       `gorm:"column:id" json:"id"`
 	Phone      string    `gorm:"column:phone" json:"phone"`
+	WxID       string    `gorm:"column:wxid" json:"wxid"`
 	Enable     int       `gorm:"column:enable" json:"enable"`
 	Password   string    `gorm:"column:password" json:"-"`
 	Salt       string    `gorm:"column:salt" json:"-"`

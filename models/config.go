@@ -48,6 +48,12 @@ type Mconfig struct {
 	ElasticPassword  string
 	ElasticIndexName string
 
+	WxSessionAPIURL string
+	WxPayAPIURL     string
+	WxAppID         string
+	WxAppSecret     string
+	WxGrantType     string
+
 	// 是否在Docker容器中，影响是否把日志打到标准输出或者文件。
 	INDOCKER string
 
@@ -144,6 +150,11 @@ func init() {
 		MyConfig.SnowFlakDomain = appConf.String(DREAMENV + "::domain")
 		MyConfig.SnowFlakAuthUser = appConf.String(DREAMENV + "::authUser")
 		MyConfig.SnowFlakAuthUserSecurity = appConf.String(DREAMENV + "::authUserSecurity")
+
+		MyConfig.WxSessionAPIURL = appConf.String(DREAMENV + "::wxSessionApiUrl")
+		MyConfig.WxAppID = appConf.String(DREAMENV + "::wxAppId")
+		MyConfig.WxAppSecret = appConf.String(DREAMENV + "::wxAppSecret")
+		MyConfig.WxGrantType = appConf.String(DREAMENV + "::wxGrantType")
 
 	}
 	getResponseConfig()

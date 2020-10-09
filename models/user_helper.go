@@ -18,7 +18,7 @@ func SendSms(phone string) (code string, err error) {
 	phones := make([]string, 1)
 	params := make([]string, 1)
 	randomCode := GetRandomCode()
-	phones[0] = phone
+	phones[0] = "+86" + phone
 	params[0] = randomCode
 
 	TencentSms(phones, params)

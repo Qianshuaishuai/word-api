@@ -11,10 +11,11 @@ import (
 )
 
 var (
-	SMS_CODE_TEMPLATE_ID = "449739"
-	SMS_CODE_SIGN        = ""
-	SMS_CODE_KEY_ID      = "1400415205"
-	SMS_CODE_SECRET_KEY  = "f761c46595147dfb0294b43f23606304"
+	SMS_CODE_TEMPLATE_ID = "734927"
+	SMS_CODE_SIGN        = "亲知科技"
+	SMS_CODE_APP_ID      = "1400415205"
+	SMS_CODE_KEY_ID      = "AKID3uWQ4RdQOnwq784pKI7i3g6LK4WihNTM"
+	SMS_CODE_SECRET_KEY  = "sa86rNfLM9nI0TfhigPzKVdW92YpsjKf"
 )
 
 func TencentSms(phones []string, params []string) {
@@ -66,7 +67,7 @@ func TencentSms(phones []string, params []string) {
 	 * sms helper：https://cloud.tencent.com/document/product/382/3773 */
 
 	/* 短信应用 ID: 在 [短信控制台] 添加应用后生成的实际 SDKAppID，例如1400006666 */
-	request.SmsSdkAppid = common.StringPtr(SMS_CODE_KEY_ID)
+	request.SmsSdkAppid = common.StringPtr(SMS_CODE_APP_ID)
 	/* 短信签名内容: 使用 UTF-8 编码，必须填写已审核通过的签名，可登录 [短信控制台] 查看签名信息 */
 	request.Sign = common.StringPtr(SMS_CODE_SIGN)
 	/* 短信码号扩展号: 默认未开通，如需开通请联系 [sms helper] */
@@ -77,7 +78,6 @@ func TencentSms(phones []string, params []string) {
 	/* 下发手机号码，采用 e.164 标准，+[国家或地区码][手机号]
 	 * 例如+8613711112222， 其中前面有一个+号 ，86为国家码，13711112222为手机号，最多不要超过200个手机号*/
 	request.PhoneNumberSet = common.StringPtrs(phones)
-
 	// 通过 client 对象调用想要访问的接口，需要传入请求对象
 	response, err := client.SendSms(request)
 	// 处理异常

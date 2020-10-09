@@ -24,6 +24,9 @@ func init() {
 	beego.Router("/v1/user/code", &controllers.UserController{}, "post:Code")
 	beego.Router("/v1/user/logout", &controllers.UserController{}, "post:Logout")
 	beego.Router("/v1/user/setting", &controllers.UserController{}, "post:Setting")
+	beego.Router("/v1/user/wxlogin", &controllers.UserController{}, "get:WxLogin")
+	beego.Router("/v1/user/wxperfect", &controllers.UserController{}, "post:WxPerfect")
+	beego.Router("/v1/user/check", &controllers.UserController{}, "get:Check")
 
 	//同步书本相关
 	beego.Router("/v1/book/add", &controllers.BookController{}, "post:AddBook")

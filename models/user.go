@@ -2,6 +2,7 @@ package models
 
 import (
 	"errors"
+	"log"
 	"time"
 )
 
@@ -27,6 +28,51 @@ func Setting(phone string, grade int, subjects, organ, address, introduce string
 	user.CreateTime = time.Now()
 
 	err = GetDb().Table("t_users").Where("phone = ?", phone).Update(&user).Error
+	if err != nil {
+		return user, errors.New("更新失败")
+	}
+
+	return user, nil
+}
+
+//修改
+func WxPerfect(wxid string, username string, phone string, password, codeStr string, grade int, subjects, organ, address, introduce string) (user User, err error) {
+
+	var code Code
+	GetDb().Table("t_codes").Where("phone = ? AND code = ?", phone, codeStr).Find(&code)
+
+	if code.Phone == "" {
+		return user, errors.New("验证玛错误")
+	}
+
+	GetDb().Table("t_users").Where("wxid = ?", wxid).Find(&user)
+
+	if user.WxID == "" {
+		return user, errors.New("未找到帐号")
+	}
+
+	user.WxID = wxid
+	user.Username = username
+	user.Phone = phone
+	user.Grade = grade
+	user.Subjects = subjects
+	user.Organ = organ
+	user.Address = address
+	user.Introduce = introduce
+	user.Password, user.Salt = TranslateUserPassword(password)
+	user.CreateTime = time.Now()
+
+	var checkUser User
+	GetDb().Table("t_users").Where("phone = ?", phone).Find(&checkUser)
+
+	if checkUser.Phone == "" {
+		err = GetDb().Table("t_users").Where("wxid = ?", wxid).Update(&user).Error
+	} else {
+		err = GetDb().Table("t_users").Where("wxid = ?", wxid).Delete(User{}).Error
+		user.ID = checkUser.ID
+		err = GetDb().Table("t_users").Where("phone = ?", phone).Update(&user).Error
+	}
+
 	if err != nil {
 		return user, errors.New("更新失败")
 	}
@@ -96,6 +142,17 @@ func Register(username, phone, password, codeStr string, grade int, subjects, or
 	return newUser, nil
 }
 
+func CheckPhone(phone string) (isHave int, err error) {
+	var checkUser User
+	GetDb().Table("t_users").Where("phone = ?", phone).Find(&checkUser)
+
+	if checkUser.Phone == "" {
+		return 0, nil
+	}
+
+	return 1, nil
+}
+
 //登录接口(普通模式)
 func CommonLogin(phone, password string) (user User, err error) {
 	var checkUser User
@@ -134,6 +191,32 @@ func CommonLogin(phone, password string) (user User, err error) {
 
 	if user.Phone == "" {
 		return user, errors.New("未找到该用户信息")
+	}
+
+	return user, nil
+}
+
+func WxLogin(code string) (user User, err error) {
+	wxIDResponse, err := GetOpenID(code)
+
+	if err != nil {
+		return user, errors.New("获取微信信息失败")
+	}
+
+	GetDb().Table("t_users").Where("wxid = ?", wxIDResponse.OpenID).Find(&user)
+
+	if user.Username == "" {
+		wxInfoResponse, _ := GetWxUserInfo(wxIDResponse.AccessToken, wxIDResponse.OpenID)
+		user.WxID = wxIDResponse.OpenID
+		user.Username = wxInfoResponse.NickName
+		user.CreateTime = time.Now()
+
+		err = GetDb().Table("t_users").Create(&user).Error
+
+		if err != nil {
+			log.Println(err)
+			return user, errors.New("创建微信用户失败")
+		}
 	}
 
 	return user, nil
@@ -206,14 +289,8 @@ func LoginOut(phone string) (err error) {
 	var count int
 	GetDb().Table("t_login_status").Where("phone = ?", phone).Count(&count)
 
-	if count <= 0 {
-		return errors.New("账号错误")
-	}
-
-	err = GetDb().Table("t_login_status").Where("phone = ?", phone).Delete(LoginStatus{}).Error
-
-	if err != nil {
-		return errors.New("登出失败")
+	if count > 0 {
+		GetDb().Table("t_login_status").Where("phone = ?", phone).Delete(LoginStatus{})
 	}
 
 	return nil
