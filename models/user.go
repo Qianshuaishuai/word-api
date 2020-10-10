@@ -35,7 +35,7 @@ func Setting(phone string, grade int, subjects, organ, address, introduce string
 	return user, nil
 }
 
-//修改
+//微信注册信息完善
 func WxPerfect(wxid string, username string, phone string, password, codeStr string, grade int, subjects, organ, address, introduce string) (user User, err error) {
 
 	var code Code

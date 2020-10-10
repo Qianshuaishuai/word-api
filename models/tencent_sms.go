@@ -11,6 +11,7 @@ import (
 )
 
 var (
+	//短信发送相关基础配置
 	SMS_CODE_TEMPLATE_ID = "734927"
 	SMS_CODE_SIGN        = "亲知科技"
 	SMS_CODE_APP_ID      = "1400415205"

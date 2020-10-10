@@ -5,6 +5,7 @@ import (
 	"log"
 )
 
+//获取微信唯一id-openId
 func GetOpenID(code string) (data WxIDResponse, err error) {
 	query := make(map[string]string)
 	query["appid"] = MyConfig.WxAppID
@@ -31,6 +32,7 @@ func GetOpenID(code string) (data WxIDResponse, err error) {
 	return data, nil
 }
 
+//获取微信用户信息
 func GetWxUserInfo(accessToken, openID string) (data WxInfoResponse, err error) {
 	query := make(map[string]string)
 	query["access_token"] = accessToken
