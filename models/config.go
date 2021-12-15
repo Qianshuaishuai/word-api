@@ -114,7 +114,7 @@ func init() {
 	if len(DREAMENV) <= 0 {
 		DREAMENV = "PROD"
 	}
-	appName := "knowtech-api"
+	appName := "word-api"
 
 	appConf, err := config.NewConfig("ini", "conf/app.conf")
 	if err != nil {

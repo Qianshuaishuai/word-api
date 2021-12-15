@@ -1,6 +1,6 @@
 package controllers
 
-import "gitlab.dreamdev.cn/ebag/knowtech-api/models"
+import "gitlab.dreamdev.cn/ebag/word-api/models"
 
 type BookController struct {
 	BaseController

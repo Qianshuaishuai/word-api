@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"time"
 
-	"gitlab.dreamdev.cn/ebag/knowtech-api/helper"
+	"gitlab.dreamdev.cn/ebag/word-api/helper"
 )
 
 //获取验证码（随机6位）

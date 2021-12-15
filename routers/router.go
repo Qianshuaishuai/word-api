@@ -9,7 +9,7 @@ package routers
 
 import (
 	"github.com/astaxie/beego"
-	"gitlab.dreamdev.cn/ebag/knowtech-api/controllers"
+	"gitlab.dreamdev.cn/ebag/word-api/controllers"
 )
 
 func init() {
@@ -41,4 +41,7 @@ func init() {
 	beego.Router("/v1/question/delete", &controllers.QuestionController{}, "post:DeleteQuestion")
 	beego.Router("/v1/question/list", &controllers.QuestionController{}, "get:GetQuestionList")
 	beego.Router("/v1/question/detail", &controllers.QuestionController{}, "get:GetQuestionDetail")
+
+	//字词相关
+	beego.Router("/v1/word/search", &controllers.WordController{}, "get:GetSearchWord")
 }

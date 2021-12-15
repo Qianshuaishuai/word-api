@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"testing"
 
-	_ "gitlab.dreamdev.cn/ebag/knowtech-api/routers"
+	_ "gitlab.dreamdev.cn/ebag/word-api/routers"
 
 	"github.com/astaxie/beego"
 	. "github.com/smartystreets/goconvey/convey"

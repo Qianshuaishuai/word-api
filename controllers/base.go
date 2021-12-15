@@ -10,8 +10,8 @@ import (
 	loglib "github.com/HYY-yu/LogLib"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/validation"
-	"gitlab.dreamdev.cn/ebag/knowtech-api/helper"
-	"gitlab.dreamdev.cn/ebag/knowtech-api/models"
+	"gitlab.dreamdev.cn/ebag/word-api/helper"
+	"gitlab.dreamdev.cn/ebag/word-api/models"
 )
 
 //公共controller

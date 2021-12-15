@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"gitlab.dreamdev.cn/ebag/knowtech-api/models"
+	"gitlab.dreamdev.cn/ebag/word-api/models"
 )
 
 type UserController struct {

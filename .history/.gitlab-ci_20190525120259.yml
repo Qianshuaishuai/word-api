@@ -8,8 +8,8 @@ stages:
 variables:
   ALI_REGISTRY_HOST: "registry.cn-shenzhen.aliyuncs.com"
   ALI_REGISTRY_IMAGE: "registry.cn-shenzhen.aliyuncs.com/ebag/ebag-knowtech"
-  ALI_SERVICE_NAME: "ebag-prod_knowtech-api"
-  TEST_SERVICE_NAME: "ebag-test_knowtech-api"
+  ALI_SERVICE_NAME: "ebag-prod_word-api"
+  TEST_SERVICE_NAME: "ebag-test_word-api"
 
 build-develop:
   stage: build
