@@ -44,4 +44,5 @@ func init() {
 
 	//字词相关
 	beego.Router("/v1/word/search", &controllers.WordController{}, "get:GetSearchWord")
+	beego.Router("/v1/word/search/list", &controllers.WordController{}, "get:GetSearchList")
 }

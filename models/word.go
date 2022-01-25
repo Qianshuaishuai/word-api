@@ -19,10 +19,19 @@ type Word struct {
 	Tone         int       `gorm:"column:tone" json:"tone"`
 	Type         int       `gorm:"column:type" json:"type"`
 	Color        int       `gorm:"column:color" json:"color"`
+	ComboColor   int       `gorm:"column:combo_color" json:"comboColor"`
+	ComboWord    string    `gorm:"column:combo_word" json:"comboWord"`
+	Background   int       `gorm:"column:background" json:"background"`
 	Size         int       `gorm:"column:size" json:"size"`
 	StrokeCount  int       `gorm:"column:stroke_count" json:"strokeCount"`
 	ComboType    string    `gorm:"column:combo_type" json:"comboType"`
 	Time         time.Time `gorm:"column:time" json:"time"`
+}
+
+type Search struct {
+	ID     int    `gorm:"column:id" json:"id"`
+	Word   string `gorm:"column:word" json:"word"`
+	Search string `gorm:"column:search" json:"search"`
 }
 
 func SearchWord(word string) (data Word, err error) {
@@ -33,4 +42,25 @@ func SearchWord(word string) (data Word, err error) {
 	}
 
 	return data, nil
+}
+
+func SearchList(search string) (datas []Search, err error) {
+	var word Word
+	GetDb().Table("words").Where("word = ?", search).Find(&word)
+
+	if word.ID != 0 {
+		var newSearch Search
+		newSearch.Search = search
+		newSearch.Word = word.Word
+		datas = append(datas, newSearch)
+	}
+
+	var searchs []Search
+	GetDb().Table("searchs").Where("search = ?", search).Limit(30).Find(&searchs)
+
+	for s := range searchs {
+		datas = append(datas, searchs[s])
+	}
+
+	return datas, nil
 }

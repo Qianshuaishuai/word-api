@@ -2,6 +2,7 @@ package models
 
 import (
 	"fmt"
+	"strconv"
 	"strings"
 	"time"
 
@@ -14,14 +15,18 @@ func Test() {
 }
 
 func TranslateWordData() {
-	xlsxfile2, err := xlsx.OpenFile("./软件3.xlsx")
+	xlsxfile2, err := xlsx.OpenFile("./bbbbb.xlsx")
 	if err != nil {
 		fmt.Printf("open failed: %s\n", err)
 		return
 	}
-
+	err = GetDb().Table("words").Delete(Word{}).Error
+	if err != nil {
+		beego.Debug("err:", err)
+	}
 	for _, sheet := range xlsxfile2.Sheets {
 		rowCount := sheet.MaxRow
+		nextWordType := ""
 		for r := 0; r < rowCount; r++ {
 			//固定模板,从第三行开始解析
 			if r >= 1 {
@@ -32,18 +37,30 @@ func TranslateWordData() {
 				// studentNo := row.Cells[1].String()
 				// examNo := row.Cells[2].String()
 				var newWord Word
-				wordType := row.GetCell(0).String()
-				pingYin := row.GetCell(1).String()
-				pingYinSingle := row.GetCell(2).String()
+				wordType := row.GetCell(1).String()
+				beego.Debug("wordType:", wordType)
+				pingYin := row.GetCell(2).String()
+				pingYinSingle := row.GetCell(3).String()
 				// tone := row.GetCell(3).String()
 				word := row.GetCell(4).String()
 				word2 := row.GetCell(5).String()
-				color, _ := row.GetCell(14).Int()
-				size, _ := row.GetCell(15).Int()
-				comboType := row.GetCell(19).String()
-				strokeCount, _ := row.GetCell(20).Int()
-				combo := row.GetCell(21).String()
-				newWord.WordType = wordType
+				background, _ := row.GetCell(11).Int()
+				color, _ := row.GetCell(12).Int()
+				size, _ := row.GetCell(13).Int()
+				comboType := row.GetCell(21).String()
+				strokeCount, _ := row.GetCell(0).Int()
+				combo := row.GetCell(16).String()
+				comboColor := row.GetCell(15).String()
+				wordType = strings.Replace(wordType, " ", "", -1)
+				// 去除换行符
+				wordType = strings.Replace(wordType, "\n", "", -1)
+				beego.Debug("nextWordType:", nextWordType)
+				if wordType == "" {
+					newWord.WordType = nextWordType
+				} else {
+					newWord.WordType = wordType
+					nextWordType = newWord.WordType
+				}
 				newWord.Pinyin = pingYin
 				newWord.PinyinSingle = pingYinSingle
 				newWord.Word = word
@@ -52,7 +69,19 @@ func TranslateWordData() {
 				newWord.Size = size
 				newWord.ComboType = comboType
 				newWord.StrokeCount = strokeCount
+				newWord.Background = background
 				newWord.Time = time.Now()
+				if comboColor != " " {
+					if strings.Contains(comboColor, "26") {
+						newWord.ComboColor = 26
+					}
+					if strings.Contains(comboColor, "27") {
+						newWord.ComboColor = 27
+					}
+
+					strArray := []rune(comboColor)
+					newWord.ComboWord = string(strArray[2:3])
+				}
 
 				if combo == "" {
 					// beego.Debug("word:", word)
@@ -81,6 +110,17 @@ func TranslateWordData() {
 									}
 								}
 
+							} else if c == len(comboArray)-1 {
+								strArray := []rune(comboArray[c])
+								for i := 0; i < len(strArray); i++ {
+									var search Search
+									search.Search = string(strArray[i])
+									search.Word = word
+									err = GetDb().Table("searchs").Create(&search).Error
+									if err != nil {
+										beego.Debug("err:", err)
+									}
+								}
 							}
 						}
 					} else {
@@ -117,6 +157,54 @@ func TranslateWordData() {
 				}
 			}
 
+		}
+	}
+}
+
+func TranslateWordData2() {
+	xlsxfile2, err := xlsx.OpenFile("./6666.xlsx")
+	if err != nil {
+		fmt.Printf("open failed: %s\n", err)
+		return
+	}
+
+	if err != nil {
+		beego.Debug("err:", err)
+	}
+
+	for _, sheet := range xlsxfile2.Sheets {
+		rowCount := sheet.MaxRow
+		for r := 0; r < rowCount; r++ {
+			//固定模板,从第三行开始解析
+			if r >= 30014 {
+				row, _ := sheet.Row(r)
+				word := row.GetCell(1).String()
+
+				var checkWord Word
+				GetDb().Table("words").Where("word = ?", word).Find(&checkWord)
+				// fmt.Printf("%+v", checkWord)
+				word = strings.Replace(word, " ", "", -1)
+				// 去除换行符
+				word = strings.Replace(word, "\n", "", -1)
+				beego.Debug("第" + strconv.Itoa(r) + "行")
+				beego.Debug("fixWord:" + word)
+				if checkWord.ID != 0 {
+					comboType := row.GetCell(3).String()
+					beego.Debug("comboType:" + comboType)
+					comboType = strings.Replace(comboType, " ", "", -1)
+					// 去除换行符
+					comboType = strings.Replace(comboType, "\n", "", -1)
+					if comboType != "" {
+						err = GetDb().Table("words").Where("id = ?", checkWord.ID).Update("combo_type", comboType).Error
+						if err != nil {
+							beego.Debug("err:", err)
+						}
+					}
+					beego.Debug("enddddddddddddddddddddd")
+				}
+			}
+
+			// time.Sleep(2 * time.Second)
 		}
 	}
 }
