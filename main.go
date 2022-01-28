@@ -3,9 +3,9 @@ package main
 import (
 	loglib "github.com/HYY-yu/LogLib"
 	"github.com/astaxie/beego"
-	"gitlab.dreamdev.cn/ebag/knowtech-api/controllers"
-	"gitlab.dreamdev.cn/ebag/knowtech-api/models"
-	_ "gitlab.dreamdev.cn/ebag/knowtech-api/routers"
+	"gitlab.dreamdev.cn/ebag/word-api/controllers"
+	"gitlab.dreamdev.cn/ebag/word-api/models"
+	_ "gitlab.dreamdev.cn/ebag/word-api/routers"
 )
 
 func main() {
@@ -20,6 +20,8 @@ func main() {
 		loglib.GetLogger().LogErr(errPing, "can't connect db")
 		return
 	}
+	// models.TranslateWordData()
+	// models.TranslateWordData2()
 
 	//如果服务器Panic ，返回500错，而不是错误信息。并且记录
 	beego.ErrorController(&controllers.ErrorController{})
