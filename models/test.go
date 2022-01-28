@@ -208,3 +208,12 @@ func TranslateWordData2() {
 		}
 	}
 }
+
+// func TranslateNonData() {
+// 	var words []Word
+// 	GetDb().Table("words").Find(&words)
+
+// 	for w := range words {
+// 		GetDb().Table("words")
+// 	}
+// }
